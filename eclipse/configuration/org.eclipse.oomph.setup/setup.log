@@ -1,0 +1,1806 @@
+[2016-10-10 15:22:12] Executing bootstrap tasks
+[2016-10-10 15:22:12] Java(TM) SE Runtime Environment 1.8.0_101-b13
+[2016-10-10 15:22:12] Product org.eclipse.products.epp.package.java.neon
+[2016-10-10 15:22:12] Bundle org.eclipse.oomph.setup 1.5.0.v20160818-1158, build=2601, branch=bdf2ff7581fb0b3481aab45845b009448eb9c2e6
+[2016-10-10 15:22:12] Bundle org.eclipse.oomph.setup.core 1.5.0.v20160913-0854, build=2601, branch=bdf2ff7581fb0b3481aab45845b009448eb9c2e6
+[2016-10-10 15:22:12] Bundle org.eclipse.oomph.setup.p2 1.5.0.v20160707-0243, build=2601, branch=bdf2ff7581fb0b3481aab45845b009448eb9c2e6
+[2016-10-10 15:22:12] Performing P2 Director (Eclipse IDE for Java Developers (Neon))
+[2016-10-10 15:22:12] Offline = false
+[2016-10-10 15:22:12] Mirrors = true
+[2016-10-10 15:22:12] Resolving 23 requirements from 3 repositories to C:\Eclipse\eclipse
+[2016-10-10 15:22:12] Requirement epp.package.java [4.6.0,4.7.0)
+[2016-10-10 15:22:12] Requirement org.eclipse.platform.feature.group [4.6.0,4.7.0)
+[2016-10-10 15:22:12] Requirement org.eclipse.rcp.feature.group [4.6.0,4.7.0)
+[2016-10-10 15:22:12] Requirement org.eclipse.buildship.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.egit.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.egit.mylyn.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.jdt.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.jgit.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.m2e.feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.mylyn.git.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.mylyn.hudson.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.mylyn_feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.recommenders.mylyn.rcp.feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.recommenders.rcp.feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.recommenders.snipmatch.rcp.feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2016-10-10 15:22:12] Requirement org.eclipse.oomph.setup.feature.group
+[2016-10-10 15:22:12] Repository http://download.eclipse.org/technology/epp/packages/neon
+[2016-10-10 15:22:12] Repository http://download.eclipse.org/releases/neon
+[2016-10-10 15:22:12] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2016-10-10 15:22:49] Calculating requirements and dependencies.
+[2016-10-10 15:22:51] Computing prerequisite plan
+[2016-10-10 15:22:52] Fetching artifacts.xml.xz from http://download.eclipse.org/technology/epp/packages/neon/
+[2016-10-10 15:22:53] Fetching compositeArtifacts.jar from http://download.eclipse.org/releases/neon/
+[2016-10-10 15:22:54] Fetching artifacts.xml.xz from http://download.eclipse.org/releases/neon/201606221000/
+[2016-10-10 15:23:05] Fetching artifacts.xml.xz from http://download.eclipse.org/releases/neon/201609281000/
+[2016-10-10 15:23:12] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/
+[2016-10-10 15:23:13] Fetching artifacts.jar from http://download.eclipse.org/oomph/drops/milestone/S20160921-051224-1.6.0-M1/
+[2016-10-10 15:23:13] Collecting 41 artifacts from http://download.eclipse.org/oomph/updates/milestone/latest
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.extractor.lib
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.jreinfo.ui
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.p2
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.setup
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.resources.edit
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.setup.p2.edit
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.jreinfo
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.jreinfo.win32.x86_64
+[2016-10-10 15:23:14] Downloading org.eclipse.oomph.setup.core
+[2016-10-10 15:23:14] Fetching org.eclipse.oomph.jreinfo_1.5.0.v20160807-1022.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:14] Fetching org.eclipse.oomph.setup.core_1.6.0.v20160920-1303.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/features/
+[2016-10-10 15:23:14] Fetching org.eclipse.oomph.p2_1.6.0.v20160920-0515.jar from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/features/
+[2016-10-10 15:23:14] Fetching org.eclipse.oomph.jreinfo.win32.x86_64_1.2.0.v20160426-0508.jar from http://eclipse.mirror.triple-it.nl/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:14] Fetching org.eclipse.oomph.setup.p2.edit_1.6.0.v20160920-0456.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:14] Fetching org.eclipse.oomph.resources.edit_1.6.0.v20160920-0456.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:14] Fetching org.eclipse.oomph.p2_1.6.0.v20160920-0456.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:14] Fetching org.eclipse.oomph.jreinfo.ui_1.6.0.v20160920-0456.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:15] Downloading org.eclipse.nebula.widgets.tablecombo
+[2016-10-10 15:23:15] Fetching org.eclipse.oomph.extractor.lib_1.2.0.v20160519-0740.jar.pack.gz from http://mirror.tspu.ru/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:15] Downloading org.apache.commons.logging
+[2016-10-10 15:23:15] Downloading org.eclipse.oomph.workingsets.edit
+[2016-10-10 15:23:15] Downloading org.eclipse.oomph.setup.p2
+[2016-10-10 15:23:15] Downloading org.eclipse.oomph.resources
+[2016-10-10 15:23:15] Downloading org.eclipse.oomph.workingsets
+[2016-10-10 15:23:15] Downloading org.eclipse.oomph.p2.edit
+[2016-10-10 15:23:15] Fetching org.eclipse.oomph.workingsets.edit_1.6.0.v20160920-0456.jar.pack.gz from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:15] Fetching org.eclipse.oomph.setup_1.6.0.v20160920-1303.jar from http://mirror.ibcp.fr/pub/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/features/
+[2016-10-10 15:23:15] Downloading org.eclipse.oomph.predicates.edit
+[2016-10-10 15:23:15] Fetching org.eclipse.nebula.widgets.tablecombo_1.0.0.201609191728.jar from http://ftp.snt.utwente.nl/pub/software/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:15] Fetching org.eclipse.oomph.setup.p2_1.6.0.v20160920-0456.jar.pack.gz from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:15] Fetching org.eclipse.oomph.resources_1.6.0.v20160920-0456.jar.pack.gz from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.p2.edit_1.6.0.v20160920-0456.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.base.edit
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.predicates.edit_1.6.0.v20160920-0456.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.workingsets_1.6.0.v20160920-0456.jar.pack.gz from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.predicates
+[2016-10-10 15:23:16] Fetching org.apache.commons.logging_1.1.1.v201101211721.jar.pack.gz from http://ftp.linux.org.tr/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.setup.doc
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.base.edit_1.6.0.v20160920-0456.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Downloading org.apache.httpcomponents.httpclient
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.setup.doc_1.6.0.v20160920-0456.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.setup.ui.questionnaire
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.p2.doc
+[2016-10-10 15:23:16] Fetching org.apache.httpcomponents.httpclient_4.3.6.v201411290715.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.setup
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.p2.ui
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.setup.ui.questionnaire_1.6.0.v20160920-0456.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.setup.editor
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.p2.doc_1.6.0.v20160920-0456.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Downloading org.eclipse.oomph.setup.core
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.setup_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.p2.ui_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.setup.editor_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:16] Fetching org.eclipse.oomph.setup.core_1.6.0.v20160920-1303.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Downloading org.eclipse.oomph.setup.ui
+[2016-10-10 15:23:17] Downloading org.eclipse.oomph.setup.edit
+[2016-10-10 15:23:17] Downloading org.eclipse.userstorage
+[2016-10-10 15:23:17] Fetching org.eclipse.oomph.setup.ui_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Fetching org.eclipse.oomph.setup.edit_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Downloading org.eclipse.oomph.ui
+[2016-10-10 15:23:17] Downloading org.eclipse.oomph.workingsets.editor
+[2016-10-10 15:23:17] Fetching org.eclipse.userstorage_1.0.0.v20160524-0709.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Fetching org.eclipse.oomph.ui_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Fetching org.eclipse.oomph.predicates_1.6.0.v20160920-0456.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Downloading org.apache.httpcomponents.httpcore
+[2016-10-10 15:23:17] Fetching org.eclipse.oomph.workingsets.editor_1.6.0.v20160920-0456.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Downloading org.eclipse.oomph.setup.sync
+[2016-10-10 15:23:17] Fetching org.apache.httpcomponents.httpcore_4.3.3.v201411290715.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Fetching org.eclipse.oomph.setup.sync_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:17] Downloading org.apache.commons.codec
+[2016-10-10 15:23:17] Downloading org.eclipse.oomph.preferences
+[2016-10-10 15:23:18] Fetching org.apache.commons.codec_1.6.0.v201305230611.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:18] Downloading org.eclipse.oomph.util
+[2016-10-10 15:23:18] Fetching org.eclipse.oomph.preferences_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:18] Downloading org.eclipse.userstorage.ui
+[2016-10-10 15:23:18] Fetching org.eclipse.oomph.util_1.5.0.v20160920-0409.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:18] Downloading org.eclipse.oomph.base
+[2016-10-10 15:23:18] Fetching org.eclipse.userstorage.ui_1.0.0.v20151216-0912.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:18] Downloading org.eclipse.oomph.p2.core
+[2016-10-10 15:23:18] Fetching org.eclipse.oomph.base_1.6.0.v20160920-0456.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:18] Fetching org.eclipse.oomph.p2.core_1.6.0.v20160920-0515.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/plugins/
+[2016-10-10 15:23:23] Mirrored 5 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 295kb/s
+[2016-10-10 15:23:23] Mirrored 17 artifacts from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 196kb/s
+[2016-10-10 15:23:23] Mirrored 2 artifacts from http://eclipse.mirror.garr.it/mirrors/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 67kb/s
+[2016-10-10 15:23:23] Mirrored 1 artifacts from http://eclipse.mirror.triple-it.nl/oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 43kb/s
+[2016-10-10 15:23:23] Mirrored 1 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 38kb/s
+[2016-10-10 15:23:23] Mirrored 5 artifacts from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 35kb/s
+[2016-10-10 15:23:23] Mirrored 1 artifacts from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 35kb/s
+[2016-10-10 15:23:23] Mirrored 5 artifacts from http://ftp.heanet.ie/pub/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 30kb/s
+[2016-10-10 15:23:23] Mirrored 1 artifacts from http://ftp.snt.utwente.nl/pub/software/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 28kb/s
+[2016-10-10 15:23:23] Mirrored 1 artifacts from http://mirror.tspu.ru/eclipse/oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 24kb/s
+[2016-10-10 15:23:23] Mirrored 1 artifacts from http://mirror.ibcp.fr/pub/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 22kb/s
+[2016-10-10 15:23:23] Mirrored 1 artifacts from http://ftp.linux.org.tr/eclipse//oomph/drops/milestone/S20160921-051224-1.6.0-M1/ at 20kb/s
+[2016-10-10 15:23:23] Collected 41 artifacts for http://download.eclipse.org/oomph/updates/milestone/latest in 9.35s
+[2016-10-10 15:23:23] Collecting 4 artifacts from http://download.eclipse.org/technology/epp/packages/neon
+[2016-10-10 15:23:24] Downloading org.eclipse.epp.package.java
+[2016-10-10 15:23:24] Downloading org.eclipse.epp.package.common.feature
+[2016-10-10 15:23:24] Downloading org.eclipse.epp.package.java.feature
+[2016-10-10 15:23:24] Downloading epp.package.java.executable.win32.win32.x86_64
+[2016-10-10 15:23:24] Fetching org.eclipse.epp.package.java_4.6.1.20160912-1200.jar.pack.gz from http://mirrors.nic.cz/eclipse/technology/epp/packages/neon/plugins/
+[2016-10-10 15:23:24] Fetching org.eclipse.epp.package.common.feature_4.6.1.20160912-1200.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/epp/packages/neon/features/
+[2016-10-10 15:23:24] Fetching org.eclipse.epp.package.java.feature_4.6.1.20160912-1200.jar from http://eclipse.mirror.triple-it.nl/technology/epp/packages/neon/features/
+[2016-10-10 15:23:24] Fetching epp.package.java.executable.win32.win32.x86_64_4.6.1.20160913-0645 from http://ftp.halifax.rwth-aachen.de/eclipse//technology/epp/packages/neon/binary/
+[2016-10-10 15:23:26] Mirrored 1 artifacts from http://mirrors.nic.cz/eclipse/technology/epp/packages/neon/ at 169kb/s
+[2016-10-10 15:23:26] Mirrored 1 artifacts from http://ftp.halifax.rwth-aachen.de/eclipse//technology/epp/packages/neon/ at 93kb/s
+[2016-10-10 15:23:26] Mirrored 1 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/epp/packages/neon/ at 84kb/s
+[2016-10-10 15:23:26] Mirrored 1 artifacts from http://eclipse.mirror.triple-it.nl/technology/epp/packages/neon/ at 39kb/s
+[2016-10-10 15:23:26] Collected 4 artifacts for http://download.eclipse.org/technology/epp/packages/neon in 3.373s
+[2016-10-10 15:23:26] Collecting 493 artifacts from http://download.eclipse.org/releases/neon
+[2016-10-10 15:23:28] Downloading ch.qos.logback.slf4j
+[2016-10-10 15:23:28] Downloading org.eclipse.wst.sse.ui.infopop
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.wikitext.twiki.ui
+[2016-10-10 15:23:28] Downloading org.eclipse.wst.common.infopop
+[2016-10-10 15:23:28] Downloading org.eclipse.e4.ui.workbench3
+[2016-10-10 15:23:28] Downloading org.eclipse.e4.ui.di
+[2016-10-10 15:23:28] Downloading org.eclipse.wst.validation.infopop
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.wikitext.mediawiki.ui
+[2016-10-10 15:23:28] Downloading org.eclipse.equinox.jsp.jasper.registry
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.wikitext.markdown.ui
+[2016-10-10 15:23:28] Fetching org.eclipse.equinox.jsp.jasper.registry_1.0.300.v20130327-1442.jar.pack.gz from http://mirrors.nic.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching ch.qos.logback.slf4j_1.0.7.v201505121915.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching org.eclipse.mylyn.wikitext.mediawiki.ui_2.9.0.v20160513-1433.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching org.eclipse.mylyn.wikitext.twiki.ui_2.9.0.v20160513-1433.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching org.eclipse.mylyn.wikitext.markdown.ui_2.9.0.v20160513-1433.jar.pack.gz from http://eclipse.mirror.triple-it.nl/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching org.eclipse.wst.common.infopop_1.0.300.v201309101952.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching org.eclipse.e4.ui.di_1.1.100.v20160506-0759.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching org.eclipse.wst.validation.infopop_1.0.300.v201309101952.jar.pack.gz from http://mirror.ibcp.fr/pub/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching org.eclipse.wst.sse.ui.infopop_1.0.300.v201309112106.jar.pack.gz from http://ftp.fau.de/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Fetching org.eclipse.e4.ui.workbench3_0.13.100.v20160506-0759.jar.pack.gz from http://mirror.tspu.ru/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Downloading org.eclipse.e4.ui.widgets
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.wikitext.core.osgi
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.wikitext.asciidoc.ui
+[2016-10-10 15:23:28] Fetching org.eclipse.e4.ui.widgets_1.1.100.v20160506-0759.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.commons.notifications.core
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.wikitext.tracwiki.ui
+[2016-10-10 15:23:28] Downloading org.eclipse.m2e.lifecyclemapping.defaults
+[2016-10-10 15:23:28] Downloading org.eclipse.m2e.importer
+[2016-10-10 15:23:28] Fetching org.eclipse.mylyn.wikitext.asciidoc.ui_2.9.0.v20160516-1451.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.versions.ui
+[2016-10-10 15:23:28] Downloading org.eclipse.e4.core.di.annotations
+[2016-10-10 15:23:28] Downloading org.eclipse.mylyn.wikitext.confluence.ui
+[2016-10-10 15:23:28] Downloading org.eclipse.wst.dtd.ui.infopop
+[2016-10-10 15:23:29] Fetching org.eclipse.mylyn.wikitext.tracwiki.ui_2.9.0.v20160513-1433.jar.pack.gz from http://mirrors.nic.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Downloading org.eclipse.mylyn.wikitext.textile.ui
+[2016-10-10 15:23:29] Fetching org.eclipse.e4.core.di.annotations_1.5.0.v20151127-1241.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.mylyn.versions.ui_1.12.0.v20160421-1824.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.mylyn.wikitext.confluence.ui_2.9.0.v20160513-1433.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.mylyn.wikitext.core.osgi_2.9.0.v20160513-1433.jar.pack.gz from http://ftp.linux.org.tr/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.wst.dtd.ui.infopop_1.0.400.v201309112106.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.mylyn.wikitext.textile.ui_2.9.0.v20160513-1433.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Downloading org.eclipse.m2e.profiles.core
+[2016-10-10 15:23:29] Downloading org.eclipse.wst.xml.ui.infopop
+[2016-10-10 15:23:29] Downloading org.eclipse.equinox.jsp.jasper
+[2016-10-10 15:23:29] Downloading org.eclipse.m2e.logback.appender
+[2016-10-10 15:23:29] Downloading org.eclipse.equinox.p2.garbagecollector
+[2016-10-10 15:23:29] Fetching org.eclipse.m2e.profiles.core_1.7.0.20160603-1933.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.wst.xml.ui.infopop_1.0.400.v201309112106.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.equinox.jsp.jasper_1.0.500.v20150119-1358.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.equinox.p2.garbagecollector_1.0.300.v20160504-1450.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.m2e.logback.appender_1.7.0.20160603-1933.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Downloading org.eclipse.e4.core.di.extensions
+[2016-10-10 15:23:29] Downloading org.eclipse.ui.win32
+[2016-10-10 15:23:29] Downloading org.eclipse.ui.intro.quicklinks
+[2016-10-10 15:23:29] Downloading org.eclipse.aether.spi
+[2016-10-10 15:23:29] Downloading org.eclipse.aether.transport.file
+[2016-10-10 15:23:29] Downloading org.w3c.dom.smil
+[2016-10-10 15:23:29] Downloading org.eclipse.jdt.annotation
+[2016-10-10 15:23:29] Fetching org.eclipse.e4.core.di.extensions_0.14.0.v20160211-1614.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.aether.spi_1.0.1.v20141111.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.ui.win32_3.3.0.v20160505-1310.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.ui.intro.quicklinks_1.0.0.v20160515-0255.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.w3c.dom.smil_1.0.1.v200903091627.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.aether.transport.file_1.0.1.v20141111.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:29] Fetching org.eclipse.jdt.annotation_1.1.100.v20160418-1457.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Downloading org.eclipse.m2e.workspace.cli
+[2016-10-10 15:23:30] Downloading org.eclipse.mylyn.java.tasks
+[2016-10-10 15:23:30] Downloading org.eclipse.equinox.simpleconfigurator.manipulator
+[2016-10-10 15:23:30] Downloading org.eclipse.m2e.jdt.ui
+[2016-10-10 15:23:30] Downloading org.slf4j.impl.log4j12
+[2016-10-10 15:23:30] Downloading org.eclipse.mylyn.bugzilla.ide
+[2016-10-10 15:23:30] Downloading org.eclipse.equinox.p2.discovery
+[2016-10-10 15:23:30] Fetching org.eclipse.mylyn.commons.notifications.core_1.12.0.v20160421-1819.jar.pack.gz from http://mirrors.nic.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.mylyn.bugzilla.ide_3.20.0.v20160421-1902.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.equinox.simpleconfigurator.manipulator_2.0.200.v20160504-1450.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.m2e.jdt.ui_1.7.0.20160603-1933.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.mylyn.java.tasks_3.20.0.v20160421-1902.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Downloading org.eclipse.jdt.apt.pluggable.core
+[2016-10-10 15:23:30] Fetching org.eclipse.equinox.p2.discovery_1.0.400.v20160504-1450.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.m2e.workspace.cli_0.3.1.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.m2e.importer_1.7.0.20160603-1933.jar.pack.gz from http://mirrors.nic.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.m2e.lifecyclemapping.defaults_1.7.0.20160603-1933.jar.pack.gz from http://mirrors.nic.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Downloading javax.inject
+[2016-10-10 15:23:30] Downloading org.eclipse.jetty.continuation
+[2016-10-10 15:23:30] Downloading org.eclipse.jdt.annotation
+[2016-10-10 15:23:30] Downloading org.eclipse.m2e.logback.configuration
+[2016-10-10 15:23:30] Downloading org.slf4j.api
+[2016-10-10 15:23:30] Fetching org.eclipse.jdt.apt.pluggable.core_1.1.100.v20160418-1457.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Downloading org.eclipse.equinox.p2.updatechecker
+[2016-10-10 15:23:30] Downloading org.eclipse.osgi.util
+[2016-10-10 15:23:30] Downloading org.eclipse.equinox.p2.console
+[2016-10-10 15:23:30] Fetching javax.inject_1.0.0.v20091030.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Downloading org.eclipse.m2e.logback.feature
+[2016-10-10 15:23:30] Fetching org.eclipse.jetty.continuation_9.3.9.v20160517.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.jdt.annotation_2.1.0.v20160418-1457.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.m2e.logback.configuration_1.7.0.20160603-1933.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.slf4j.api_1.7.2.v20121108-1250.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Downloading org.w3c.dom.events
+[2016-10-10 15:23:30] Downloading org.eclipse.emf.common
+[2016-10-10 15:23:30] Fetching org.eclipse.osgi.util_3.3.100.v20150423-1351.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.equinox.p2.updatechecker_1.1.200.v20131119-0908.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Fetching org.eclipse.equinox.p2.console_1.0.500.v20160504-1450.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:30] Downloading org.eclipse.mylyn.commons.identity
+[2016-10-10 15:23:30] Fetching org.eclipse.m2e.logback.feature_1.7.0.20160603-1933.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:30] Downloading org.eclipse.mylyn.monitor
+[2016-10-10 15:23:30] Downloading org.eclipse.emf.ecore
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.discovery
+[2016-10-10 15:23:31] Fetching org.eclipse.emf.common_2.12.0.v20160420-0247.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.monitor_3.20.0.v20160421-1819.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.emf.ecore_2.12.0.v20160420-0247.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.versions
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.commons.identity_1.12.0.v20160421-1819.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.discovery_3.20.0.v20160421-1819.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.versions_1.12.0.v20160421-1824.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.commons
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.commons.repositories.http
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.team_feature
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.git
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.tasks.ide
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.commons.repositories
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.builds
+[2016-10-10 15:23:31] Downloading org.eclipse.mylyn.commons.notifications
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.commons_3.20.0.v20160421-1819.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.team_feature_3.20.0.v20160421-1902.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.commons.repositories.http_1.12.0.v20160421-1819.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.commons.notifications_1.12.0.v20160421-1819.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.tasks.ide_3.20.0.v20160425-1835.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.git_1.12.0.v20160421-1824.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.commons.repositories_1.12.0.v20160421-1819.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:31] Fetching org.eclipse.mylyn.builds_1.12.0.v20160421-2142.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn.context_feature
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn.ide_feature
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn.hudson
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn.bugzilla_feature
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn.java_feature
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn.wikitext_feature
+[2016-10-10 15:23:32] Downloading org.eclipse.equinox.http.registry
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn_feature
+[2016-10-10 15:23:32] Downloading org.eclipse.m2e.feature
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn.tasks.index.ui
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn.hudson_1.12.0.v20160524-1837.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.equinox.http.registry_1.1.400.v20150715-1528.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn.ide_feature_3.20.0.v20160421-1902.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn.tasks.index.ui_3.20.0.v20160425-1835.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:32] Downloading org.eclipse.mylyn.ide.ant
+[2016-10-10 15:23:32] Downloading org.eclipse.aether.feature
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn.java_feature_3.20.0.v20160421-1902.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.m2e.feature_1.7.0.20160603-1933.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Downloading org.eclipse.aether.transport.http.feature
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn.ide.ant_3.20.0.v20160421-1902.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:32] Downloading org.eclipse.aether.transport.file.feature
+[2016-10-10 15:23:32] Fetching org.eclipse.aether.feature_1.0.1.v20141111.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn.bugzilla_feature_3.20.0.v20160425-1835.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn.wikitext_feature_2.9.0.v20160601-1831.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn_feature_3.20.0.v20160608-1838.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Downloading org.eclipse.aether.connector.basic.feature
+[2016-10-10 15:23:32] Fetching org.eclipse.aether.transport.file.feature_1.0.1.v20141111.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.aether.transport.http.feature_1.0.1.v20141111.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Downloading org.eclipse.m2e.maven.runtime.slf4j.simple
+[2016-10-10 15:23:32] Downloading org.hamcrest.core
+[2016-10-10 15:23:32] Fetching org.eclipse.mylyn.context_feature_3.20.0.v20160608-1905.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.aether.connector.basic.feature_1.0.1.v20141111.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:32] Fetching org.eclipse.m2e.maven.runtime.slf4j.simple_1.7.0.20160603-1931.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:32] Fetching org.hamcrest.core_1.3.0.v201303031735.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Downloading org.eclipse.aether.transport.http
+[2016-10-10 15:23:33] Downloading org.eclipse.aether.maven.feature
+[2016-10-10 15:23:33] Downloading org.eclipse.mylyn.hudson.ui
+[2016-10-10 15:23:33] Downloading org.eclipse.core.externaltools
+[2016-10-10 15:23:33] Downloading org.eclipse.ui.net
+[2016-10-10 15:23:33] Downloading org.eclipse.mylyn.ide.ui
+[2016-10-10 15:23:33] Downloading org.eclipse.m2e.profiles.ui
+[2016-10-10 15:23:33] Downloading org.eclipse.mylyn.git.ui
+[2016-10-10 15:23:33] Downloading javax.annotation
+[2016-10-10 15:23:33] Fetching org.eclipse.aether.transport.http_1.0.1.v20141111.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Fetching org.eclipse.ui.net_1.3.0.v20160426-1633.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Fetching org.eclipse.mylyn.hudson.ui_1.12.0.v20160421-2142.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Fetching org.eclipse.mylyn.ide.ui_3.20.0.v20160421-1902.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Fetching org.eclipse.aether.maven.feature_3.1.0.20140706-2237.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:33] Fetching org.eclipse.core.externaltools_1.0.400.v20160509-1057.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Fetching org.eclipse.mylyn.git.ui_1.12.0.v20160421-1824.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Fetching javax.annotation_1.2.0.v201602091430.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Fetching org.eclipse.m2e.profiles.ui_1.7.0.20160603-1933.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:33] Downloading org.eclipse.compare.win32
+[2016-10-10 15:23:33] Downloading org.eclipse.equinox.p2.transport.ecf
+[2016-10-10 15:23:33] Downloading org.eclipse.wst.common.core
+[2016-10-10 15:23:33] Downloading org.eclipse.mylyn.git.core
+[2016-10-10 15:23:33] Downloading org.eclipse.e4.core.contexts
+[2016-10-10 15:23:33] Downloading org.eclipse.equinox.simpleconfigurator
+[2016-10-10 15:23:33] Downloading org.eclipse.mylyn.commons.xmlrpc
+[2016-10-10 15:23:34] Downloading org.eclipse.e4.core.services
+[2016-10-10 15:23:34] Fetching org.eclipse.compare.win32_1.1.0.v20160418-1534.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.equinox.simpleconfigurator_1.1.200.v20160504-1450.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.mylyn.commons.xmlrpc_3.20.0.v20160421-1819.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.mylyn.git.core_1.12.0.v20160421-1824.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.e4.core.contexts_1.5.0.v20160504-0909.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.wst.common.core_1.2.0.v200908251833.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Downloading org.eclipse.equinox.concurrent
+[2016-10-10 15:23:34] Fetching org.eclipse.e4.core.services_2.0.100.v20160509-1032.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Downloading org.eclipse.e4.core.commands
+[2016-10-10 15:23:34] Downloading org.eclipse.jdt.junit4.runtime
+[2016-10-10 15:23:34] Downloading org.eclipse.mylyn.wikitext.twiki.core
+[2016-10-10 15:23:34] Fetching org.eclipse.equinox.concurrent_1.1.0.v20130327-1442.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Downloading org.eclipse.core.resources.win32.x86_64
+[2016-10-10 15:23:34] Downloading org.eclipse.mylyn.tasks.index.core
+[2016-10-10 15:23:34] Downloading org.eclipse.equinox.p2.reconciler.dropins
+[2016-10-10 15:23:34] Downloading org.eclipse.mylyn.wikitext.tasks.ui
+[2016-10-10 15:23:34] Fetching org.eclipse.e4.core.commands_0.11.100.v20160506-0804.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.mylyn.wikitext.twiki.core_2.9.0.v20160519-0832.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.core.resources.win32.x86_64_3.5.0.v20140124-1940.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.jdt.junit4.runtime_1.1.600.v20160505-0715.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Downloading org.eclipse.e4.ui.css.swt.theme
+[2016-10-10 15:23:34] Fetching org.eclipse.mylyn.tasks.index.core_3.20.0.v20160425-1835.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.equinox.p2.reconciler.dropins_1.1.400.v20160504-1450.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Fetching org.eclipse.mylyn.wikitext.tasks.ui_2.9.0.v20160513-1433.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Downloading org.eclipse.ui.monitoring
+[2016-10-10 15:23:34] Downloading org.eclipse.e4.ui.services
+[2016-10-10 15:23:34] Downloading org.eclipse.emf.databinding
+[2016-10-10 15:23:34] Fetching org.eclipse.e4.ui.css.swt.theme_0.10.100.v20160523-0836.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:34] Downloading org.eclipse.m2e.scm
+[2016-10-10 15:23:35] Fetching org.eclipse.ui.monitoring_1.1.0.v20160131-1628.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:35] Downloading org.eclipse.equinox.launcher.win32.win32.x86_64
+[2016-10-10 15:23:35] Fetching org.eclipse.m2e.scm_1.7.0.20160603-1933.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:35] Fetching org.eclipse.e4.ui.services_1.2.100.v20160506-0759.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:35] Fetching org.eclipse.emf.databinding_1.3.0.v20160526-0356.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:35] Fetching org.eclipse.equinox.p2.transport.ecf_1.1.200.v20160606-1311.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:35] Downloading org.eclipse.core.net.win32.x86_64
+[2016-10-10 15:23:35] Downloading org.eclipse.equinox.http.jetty
+[2016-10-10 15:23:36] Downloading org.eclipse.mylyn.commons.notifications.feed
+[2016-10-10 15:23:36] Downloading org.eclipse.mylyn.versions.core
+[2016-10-10 15:23:36] Downloading org.eclipse.mylyn.commons.repositories.core
+[2016-10-10 15:23:36] Downloading org.eclipse.mylyn.wikitext.context.ui
+[2016-10-10 15:23:36] Downloading org.eclipse.core.filesystem.win32.x86_64
+[2016-10-10 15:23:36] Downloading org.eclipse.equinox.p2.directorywatcher
+[2016-10-10 15:23:36] Fetching org.eclipse.mylyn.commons.notifications.feed_1.12.0.v20160421-1819.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:36] Fetching org.eclipse.mylyn.wikitext.context.ui_2.9.0.v20160513-1433.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:36] Fetching org.eclipse.mylyn.versions.core_1.12.0.v20160421-1824.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:36] Fetching org.eclipse.core.net.win32.x86_64_1.1.0.v20160323-1650.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:36] Fetching org.eclipse.mylyn.commons.repositories.core_1.12.0.v20160421-1819.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:36] Fetching org.eclipse.equinox.http.jetty_3.3.0.v20160324-1850.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:36] Fetching org.eclipse.core.filesystem.win32.x86_64_1.4.0.v20140124-1940.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:36] Fetching org.eclipse.equinox.p2.directorywatcher_1.1.100.v20150423-1455.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:37] Downloading org.eclipse.wst.xml_userdoc.feature
+[2016-10-10 15:23:37] Downloading org.eclipse.jdt.compiler.tool
+[2016-10-10 15:23:37] Downloading org.eclipse.wst.common_ui.feature
+[2016-10-10 15:23:37] Downloading org.eclipse.wst.common_core.feature
+[2016-10-10 15:23:37] Downloading org.eclipse.jdt.core.manipulation
+[2016-10-10 15:23:37] Downloading org.eclipse.equinox.event
+[2016-10-10 15:23:37] Downloading org.eclipse.mylyn.wikitext.mediawiki.core.ant
+[2016-10-10 15:23:37] Downloading org.apache.felix.gogo.runtime
+[2016-10-10 15:23:37] Fetching org.eclipse.jdt.compiler.tool_1.1.100.v20160418-1457.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:37] Downloading org.eclipse.equinox.security.win32.x86_64
+[2016-10-10 15:23:37] Fetching org.eclipse.wst.common_ui.feature_3.8.0.v201603091933.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:37] Fetching org.eclipse.wst.xml_userdoc.feature_3.8.0.v201511030001.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/features/
+[2016-10-10 15:23:37] Fetching org.eclipse.jdt.core.manipulation_1.7.0.v20160419-0705.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:37] Fetching org.apache.felix.gogo.runtime_0.10.0.v201209301036.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:37] Fetching org.eclipse.mylyn.wikitext.mediawiki.core.ant_2.9.0.v20160513-1433.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:37] Fetching org.eclipse.equinox.event_1.3.200.v20160324-1850.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:37] Fetching org.eclipse.wst.common_core.feature_3.7.1.v201508262220.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/features/
+[2016-10-10 15:23:37] Downloading org.eclipse.core.variables
+[2016-10-10 15:23:37] Downloading org.eclipse.core.runtime
+[2016-10-10 15:23:37] Downloading org.eclipse.equinox.p2.extensionlocation
+[2016-10-10 15:23:37] Downloading org.eclipse.mylyn.commons.repositories.http.core
+[2016-10-10 15:23:37] Downloading org.eclipse.jsch.ui
+[2016-10-10 15:23:37] Downloading org.tukaani.xz
+[2016-10-10 15:23:37] Downloading org.eclipse.emf.ecore.change
+[2016-10-10 15:23:37] Fetching org.eclipse.equinox.security.win32.x86_64_1.0.100.v20130327-1442.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.core.variables_3.3.0.v20160419-1720.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Downloading org.eclipse.mylyn.debug.ui
+[2016-10-10 15:23:38] Fetching org.eclipse.emf.ecore.change_2.11.0.v20160420-0247.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.tukaani.xz_1.3.0.v201308270617.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.mylyn.commons.repositories.http.core_1.12.0.v20160421-1819.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.equinox.p2.extensionlocation_1.2.300.v20160419-0834.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.jsch.ui_1.3.0.v20160323-1650.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Downloading org.eclipse.mylyn.commons.notifications.ui
+[2016-10-10 15:23:38] Downloading org.eclipse.equinox.frameworkadmin
+[2016-10-10 15:23:38] Fetching org.eclipse.mylyn.debug.ui_3.20.0.v20160421-1902.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Downloading org.eclipse.equinox.p2.director.app
+[2016-10-10 15:23:38] Downloading org.w3c.css.sac
+[2016-10-10 15:23:38] Downloading org.eclipse.equinox.p2.jarprocessor
+[2016-10-10 15:23:38] Fetching org.eclipse.mylyn.commons.notifications.ui_1.12.0.v20160421-1819.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.equinox.frameworkadmin_2.0.300.v20160504-1450.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.400.v20160518-1444.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Downloading org.eclipse.mylyn.monitor.core
+[2016-10-10 15:23:38] Downloading org.eclipse.mylyn.wikitext.markdown.core
+[2016-10-10 15:23:38] Fetching org.eclipse.equinox.p2.director.app_1.0.500.v20160419-0834.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.w3c.css.sac_1.3.1.v200903091627.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.equinox.p2.jarprocessor_1.0.500.v20160504-1450.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.mylyn.monitor.core_3.20.0.v20160421-1819.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Downloading org.eclipse.ui.views.properties.tabbed
+[2016-10-10 15:23:38] Downloading org.eclipse.core.contenttype
+[2016-10-10 15:23:38] Fetching org.eclipse.mylyn.wikitext.markdown.core_2.9.0.v20160513-1433.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Downloading org.eclipse.osgi.services
+[2016-10-10 15:23:38] Downloading org.eclipse.wst.common.frameworks
+[2016-10-10 15:23:38] Downloading org.eclipse.wst.dtdeditor.doc.user
+[2016-10-10 15:23:38] Fetching org.eclipse.ui.views.properties.tabbed_3.7.0.v20160310-0903.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Fetching org.eclipse.core.contenttype_3.5.100.v20160418-1621.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Downloading org.eclipse.jsch.core
+[2016-10-10 15:23:38] Fetching org.eclipse.osgi.services_3.5.100.v20160504-1419.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:38] Downloading org.eclipse.equinox.p2.updatesite
+[2016-10-10 15:23:38] Fetching org.eclipse.wst.common.frameworks_1.2.200.v201304241450.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:39] Fetching org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201208081537.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:39] Fetching org.eclipse.jsch.core_1.3.0.v20160422-1917.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:39] Downloading org.apache.commons.pool
+[2016-10-10 15:23:39] Downloading org.eclipse.equinox.security
+[2016-10-10 15:23:39] Fetching org.eclipse.equinox.p2.updatesite_1.0.600.v20160504-1450.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:39] Downloading com.google.inject.multibindings
+[2016-10-10 15:23:39] Downloading org.eclipse.core.filebuffers
+[2016-10-10 15:23:39] Downloading org.eclipse.aether.connector.basic
+[2016-10-10 15:23:39] Fetching org.eclipse.core.runtime_3.12.0.v20160606-1342.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:39] Downloading org.apache.ws.commons.util
+[2016-10-10 15:23:39] Fetching org.eclipse.equinox.security_1.2.200.v20150715-1528.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:39] Fetching org.apache.commons.pool_1.6.0.v201204271246.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Downloading org.eclipse.wst.validation.ui
+[2016-10-10 15:23:40] Fetching org.eclipse.aether.connector.basic_1.0.1.v20141111.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching com.google.inject.multibindings_3.0.0.v201605172100.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching org.eclipse.core.filebuffers_3.6.0.v20160503-1849.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching org.apache.ws.commons.util_1.0.1.v20100518-1140.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Downloading org.eclipse.equinox.p2.touchpoint.eclipse
+[2016-10-10 15:23:40] Downloading org.eclipse.mylyn.tasks.search
+[2016-10-10 15:23:40] Downloading org.eclipse.mylyn.commons.identity.core
+[2016-10-10 15:23:40] Downloading org.eclipse.equinox.p2.ui.sdk.scheduler
+[2016-10-10 15:23:40] Downloading org.eclipse.wst.common.uriresolver
+[2016-10-10 15:23:40] Downloading org.eclipse.update.configurator
+[2016-10-10 15:23:40] Downloading org.eclipse.jem.util
+[2016-10-10 15:23:40] Downloading org.eclipse.mylyn.resources.ui
+[2016-10-10 15:23:40] Downloading org.eclipse.mylyn.wikitext.core.ant
+[2016-10-10 15:23:40] Fetching org.eclipse.wst.validation.ui_1.2.500.v201310231452.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching org.eclipse.equinox.p2.touchpoint.eclipse_2.1.400.v20160419-0834.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching org.eclipse.mylyn.tasks.search_3.20.0.v20160425-1835.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching org.eclipse.equinox.p2.ui.sdk.scheduler_1.2.200.v20160504-1450.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching org.eclipse.mylyn.commons.identity.core_1.12.0.v20160421-1819.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching org.eclipse.wst.common.uriresolver_1.2.200.v201505132009.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:40] Fetching org.eclipse.mylyn.resources.ui_3.20.0.v20160421-1902.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:41] Fetching org.eclipse.jem.util_2.1.200.v201404021757.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:42] Fetching org.eclipse.update.configurator_3.3.400.v20160506-0750.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:43] Fetching org.eclipse.mylyn.wikitext.core.ant_2.9.0.v20160513-1433.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:43] Downloading org.eclipse.wst.common.environment
+[2016-10-10 15:23:43] Downloading org.eclipse.wst.internet.cache
+[2016-10-10 15:23:43] Downloading org.eclipse.core.jobs
+[2016-10-10 15:23:43] Downloading org.eclipse.e4.ui.dialogs
+[2016-10-10 15:23:43] Downloading org.eclipse.m2e.jdt
+[2016-10-10 15:23:43] Downloading org.eclipse.mylyn.wikitext.html.core
+[2016-10-10 15:23:43] Downloading org.eclipse.equinox.p2.ui.sdk
+[2016-10-10 15:23:43] Fetching org.eclipse.e4.ui.dialogs_1.1.0.v20151127-1218.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:43] Fetching org.eclipse.wst.internet.cache_1.0.701.v201510130022.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:43] Fetching org.eclipse.equinox.p2.ui.sdk_1.0.400.v20150423-1455.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:43] Fetching org.eclipse.mylyn.wikitext.html.core_2.9.0.v20160513-1433.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Downloading org.eclipse.equinox.p2.metadata.repository
+[2016-10-10 15:23:44] Downloading org.eclipse.equinox.bidi
+[2016-10-10 15:23:44] Downloading org.eclipse.e4.emf.xpath
+[2016-10-10 15:23:44] Downloading org.eclipse.equinox.console
+[2016-10-10 15:23:44] Downloading org.eclipse.e4.ui.bindings
+[2016-10-10 15:23:44] Downloading org.eclipse.aether.util
+[2016-10-10 15:23:44] Downloading com.ibm.icu
+[2016-10-10 15:23:44] Fetching org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching org.eclipse.core.jobs_3.8.0.v20160509-0411.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching org.eclipse.equinox.bidi_1.0.0.v20160307-1318.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching org.eclipse.equinox.p2.metadata.repository_1.2.300.v20160419-0834.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching com.ibm.icu_56.1.0.v201601250100.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching org.eclipse.e4.emf.xpath_0.1.200.v20160506-0804.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching org.eclipse.equinox.console_1.1.200.v20150929-1405.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching org.eclipse.aether.util_1.0.1.v20141111.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching org.eclipse.e4.ui.bindings_0.11.100.v20160509-1025.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Downloading org.eclipse.m2e.maven.runtime
+[2016-10-10 15:23:44] Fetching org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Fetching org.eclipse.wst.common.environment_1.0.400.v200912181831.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:44] Downloading org.apache.ant
+[2016-10-10 15:23:44] Downloading org.apache.jasper.glassfish
+[2016-10-10 15:23:44] Downloading com.google.guava
+[2016-10-10 15:23:44] Downloading org.eclipse.m2e.archetype.common
+[2016-10-10 15:23:44] Downloading org.eclipse.mylyn.tasks.ui
+[2016-10-10 15:23:44] Downloading org.apache.lucene.core
+[2016-10-10 15:23:44] Downloading org.eclipse.team.ui
+[2016-10-10 15:23:44] Fetching org.apache.lucene.core_3.5.0.v20120725-1805.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:45] Fetching org.eclipse.team.ui_3.8.0.v20160518-1906.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:45] Downloading org.apache.xerces
+[2016-10-10 15:23:45] Fetching org.eclipse.m2e.archetype.common_1.7.0.20160603-1931.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:45] Fetching org.apache.xerces_2.9.0.v201101211617.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:46] Fetching org.eclipse.mylyn.tasks.ui_3.20.0.v20160608-1838.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:47] Fetching org.apache.jasper.glassfish_2.2.2.v201501141630.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:47] Fetching com.google.guava_15.0.0.v201403281430.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:48] Downloading org.eclipse.mylyn.help.ui
+[2016-10-10 15:23:49] Fetching org.eclipse.mylyn.help.ui_3.20.0.v20160425-1835.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:50] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:53] Downloading org.eclipse.mylyn.wikitext.help.ui
+[2016-10-10 15:23:53] Fetching org.eclipse.mylyn.wikitext.help.ui_2.9.0.v20160524-0547.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:23:55] Downloading org.eclipse.emf.ecore
+[2016-10-10 15:23:55] Fetching org.eclipse.emf.ecore_2.12.0.v20160420-0247.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:55] Downloading org.eclipse.m2e.maven.indexer
+[2016-10-10 15:23:56] Fetching org.eclipse.m2e.maven.indexer_1.7.0.20160603-1931.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:23:58] Downloading org.eclipse.wst.sse.ui
+[2016-10-10 15:23:58] Fetching org.eclipse.wst.sse.ui_1.3.500.v201605120129.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:00] Downloading org.eclipse.gef
+[2016-10-10 15:24:00] Fetching org.eclipse.gef_3.11.0.201606061308.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:00] Downloading org.eclipse.wst.xml.ui
+[2016-10-10 15:24:01] Fetching org.eclipse.wst.xml.ui_1.1.700.v201604272318.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:01] Downloading org.apache.lucene.analysis
+[2016-10-10 15:24:01] Fetching org.apache.lucene.analysis_3.5.0.v20120725-1805.jar from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:01] Downloading org.eclipse.core.resources
+[2016-10-10 15:24:02] Fetching org.eclipse.core.resources_3.11.0.v20160503-1608.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:03] Downloading org.apache.httpcomponents.httpclient
+[2016-10-10 15:24:03] Downloading org.eclipse.wst.xml.core
+[2016-10-10 15:24:03] Downloading org.eclipse.m2e.core.ui
+[2016-10-10 15:24:03] Fetching org.apache.httpcomponents.httpclient_4.3.6.v201511171540.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:03] Fetching org.eclipse.wst.xml.core_1.1.1000.v201605120036.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:03] Fetching org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:03] Downloading org.eclipse.aether.maven
+[2016-10-10 15:24:04] Fetching org.eclipse.aether.maven_3.1.0.v20140706-2237.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:04] Downloading org.eclipse.help.webapp
+[2016-10-10 15:24:05] Fetching org.eclipse.help.webapp_3.8.0.v20160504-0839.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:05] Downloading org.eclipse.draw2d
+[2016-10-10 15:24:05] Downloading org.eclipse.ui.editors
+[2016-10-10 15:24:06] Fetching org.eclipse.draw2d_3.10.100.201606061308.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:06] Fetching org.eclipse.ui.editors_3.10.0.v20160505-0931.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:06] Downloading org.eclipse.equinox.p2.ui
+[2016-10-10 15:24:07] Fetching org.eclipse.equinox.p2.ui_2.4.100.v20160419-0834.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:07] Downloading org.eclipse.xsd
+[2016-10-10 15:24:07] Fetching org.eclipse.xsd_2.12.0.v20160526-0356.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:07] Downloading com.google.inject
+[2016-10-10 15:24:07] Downloading org.eclipse.jetty.server
+[2016-10-10 15:24:08] Fetching org.eclipse.jetty.server_9.3.9.v20160517.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:08] Fetching com.google.inject_3.0.0.v201605172100.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:08] Downloading org.eclipse.ltk.ui.refactoring
+[2016-10-10 15:24:08] Fetching org.eclipse.ltk.ui.refactoring_3.8.0.v20160518-1817.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:08] Downloading org.eclipse.ant.ui
+[2016-10-10 15:24:08] Downloading org.eclipse.mylyn.tasks.core
+[2016-10-10 15:24:09] Fetching org.eclipse.mylyn.tasks.core_3.20.0.v20160608-1838.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:09] Downloading org.eclipse.team.core
+[2016-10-10 15:24:09] Fetching org.eclipse.team.core_3.8.0.v20160418-1534.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:09] Downloading org.eclipse.wst.validation
+[2016-10-10 15:24:10] Fetching org.eclipse.ant.ui_3.6.200.v20160525-1820.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:10] Fetching org.eclipse.wst.validation_1.2.700.v201508251749.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:10] Downloading org.apache.log4j
+[2016-10-10 15:24:10] Downloading org.eclipse.wst.dtd.core
+[2016-10-10 15:24:10] Downloading org.eclipse.m2e.model.edit
+[2016-10-10 15:24:10] Fetching org.apache.log4j_1.2.15.v201012070815.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:10] Fetching org.eclipse.wst.dtd.core_1.1.700.v201211012112.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:10] Fetching org.eclipse.m2e.model.edit_1.7.0.20160603-1933.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:10] Downloading org.eclipse.wst.common.modulecore
+[2016-10-10 15:24:11] Fetching org.eclipse.wst.common.modulecore_1.2.401.v201408132036.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:11] Downloading org.eclipse.jdt.apt.core
+[2016-10-10 15:24:11] Downloading ch.qos.logback.core
+[2016-10-10 15:24:11] Downloading org.eclipse.wst.xsd.ui
+[2016-10-10 15:24:11] Fetching org.eclipse.jdt.apt.core_3.4.100.v20160525-0952.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:11] Fetching org.eclipse.wst.xsd.ui_1.2.600.v201511240159.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:11] Fetching ch.qos.logback.core_1.0.7.v20121108-1250.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:11] Downloading org.eclipse.debug.core
+[2016-10-10 15:24:11] Downloading org.eclipse.wst.common.project.facet.core
+[2016-10-10 15:24:12] Downloading org.eclipse.emf.common
+[2016-10-10 15:24:12] Fetching org.eclipse.debug.core_3.10.100.v20160419-1720.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:12] Fetching org.eclipse.wst.common.project.facet.core_1.4.300.v201111030423.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:12] Fetching org.eclipse.emf.common_2.12.0.v20160420-0247.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:13] Downloading org.apache.batik.css
+[2016-10-10 15:24:13] Downloading org.eclipse.jface
+[2016-10-10 15:24:13] Downloading org.eclipse.ui.forms
+[2016-10-10 15:24:13] Downloading org.eclipse.ltk.core.refactoring
+[2016-10-10 15:24:13] Fetching org.apache.batik.css_1.7.0.v201011041433.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:13] Fetching org.eclipse.ui.forms_3.7.0.v20160518-1929.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:13] Fetching org.eclipse.jface_3.12.0.v20160518-1929.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:13] Fetching org.eclipse.ltk.core.refactoring_3.7.0.v20160419-0705.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:13] Downloading org.eclipse.equinox.p2.metadata
+[2016-10-10 15:24:13] Fetching org.eclipse.equinox.p2.metadata_2.3.100.v20160427-2220.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:14] Downloading org.eclipse.jdt.launching
+[2016-10-10 15:24:14] Downloading org.eclipse.jetty.util
+[2016-10-10 15:24:14] Downloading org.apache.commons.compress
+[2016-10-10 15:24:14] Downloading org.apache.commons.httpclient
+[2016-10-10 15:24:14] Downloading com.jcraft.jsch
+[2016-10-10 15:24:14] Fetching org.eclipse.jdt.launching_3.8.100.v20160505-0636.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:14] Fetching org.eclipse.jetty.util_9.3.9.v20160517.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:14] Fetching org.apache.commons.compress_1.6.0.v201310281400.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:14] Downloading org.apache.xml.serializer
+[2016-10-10 15:24:14] Fetching com.jcraft.jsch_0.1.53.v201508180515.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:15] Fetching org.apache.commons.httpclient_3.1.0.v201012070820.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:15] Fetching org.apache.xml.serializer_2.7.1.v201005080400.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:15] Downloading org.junit
+[2016-10-10 15:24:15] Fetching org.junit_4.12.0.v201504281640.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:15] Downloading org.eclipse.jface.databinding
+[2016-10-10 15:24:15] Downloading org.apache.solr.client.solrj
+[2016-10-10 15:24:16] Fetching org.eclipse.jface.databinding_1.8.0.v20160420-2231.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:16] Fetching org.apache.solr.client.solrj_3.5.0.v20150506-0844.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:16] Downloading org.eclipse.wst.common.snippets
+[2016-10-10 15:24:16] Fetching org.eclipse.wst.common.snippets_1.2.300.v201602270217.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:16] Downloading org.apache.commons.math
+[2016-10-10 15:24:16] Downloading org.eclipse.mylyn.wikitext.ui
+[2016-10-10 15:24:16] Downloading org.eclipse.m2e.editor.xml
+[2016-10-10 15:24:16] Fetching org.apache.commons.math_2.1.0.v201105210652.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:16] Fetching org.eclipse.mylyn.wikitext.ui_2.9.0.v20160516-1547.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:16] Fetching org.eclipse.m2e.editor.xml_1.7.0.20160603-1933.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:17] Downloading org.eclipse.mylyn.bugzilla.core
+[2016-10-10 15:24:17] Downloading org.eclipse.ui
+[2016-10-10 15:24:17] Downloading org.eclipse.help
+[2016-10-10 15:24:17] Downloading org.eclipse.text
+[2016-10-10 15:24:17] Fetching org.eclipse.ui_3.108.0.v20160518-1929.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:17] Fetching org.eclipse.text_3.6.0.v20160503-1849.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:17] Fetching org.eclipse.mylyn.bugzilla.core_3.20.0.v20160425-1835.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:17] Downloading ch.qos.logback.classic
+[2016-10-10 15:24:17] Downloading org.eclipse.e4.ui.css.swt
+[2016-10-10 15:24:17] Fetching org.eclipse.help_3.7.0.v20160602-1307.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:18] Fetching org.eclipse.e4.ui.css.swt_0.12.100.v20160517-1505.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:18] Fetching ch.qos.logback.classic_1.0.7.v20121108-1250.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:18] Downloading org.eclipse.compare
+[2016-10-10 15:24:18] Fetching org.eclipse.compare_3.6.0.v20160418-1534.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:18] Downloading javax.xml
+[2016-10-10 15:24:18] Downloading org.eclipse.e4.ui.workbench
+[2016-10-10 15:24:18] Downloading org.eclipse.equinox.p2.repository.tools
+[2016-10-10 15:24:18] Fetching javax.xml_1.3.4.v201005080400.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:18] Downloading org.eclipse.osgi.compatibility.state
+[2016-10-10 15:24:18] Fetching org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:18] Fetching org.eclipse.equinox.p2.repository.tools_2.1.300.v20160421-0324.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:19] Fetching org.eclipse.osgi.compatibility.state_1.0.200.v20160504-1419.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:19] Downloading org.sat4j.pb
+[2016-10-10 15:24:19] Downloading org.eclipse.equinox.p2.publisher.eclipse
+[2016-10-10 15:24:19] Fetching org.sat4j.pb_2.3.5.v201404071733.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:19] Fetching org.eclipse.equinox.p2.publisher.eclipse_1.2.100.v20160504-1450.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:19] Downloading org.eclipse.mylyn.wikitext.core
+[2016-10-10 15:24:19] Downloading org.eclipse.xsd.edit
+[2016-10-10 15:24:20] Fetching org.eclipse.mylyn.wikitext.core_2.9.0.v20160513-1433.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:20] Fetching org.eclipse.xsd.edit_2.8.0.v20160526-0356.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:20] Downloading org.apache.batik.util.gui
+[2016-10-10 15:24:20] Downloading com.google.gson
+[2016-10-10 15:24:20] Downloading org.eclipse.m2e.core
+[2016-10-10 15:24:20] Downloading org.eclipse.core.databinding.property
+[2016-10-10 15:24:20] Fetching org.apache.batik.util.gui_1.7.0.v200903091627.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:20] Fetching com.google.gson_2.2.4.v201311231704.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:20] Fetching org.eclipse.core.databinding.property_1.6.0.v20160427-0852.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:20] Fetching org.eclipse.m2e.core_1.7.0.20160603-1933.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:20] Downloading org.eclipse.mylyn.builds.ui
+[2016-10-10 15:24:20] Fetching org.eclipse.mylyn.builds.ui_1.12.0.v20160421-2142.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:21] Downloading org.eclipse.equinox.registry
+[2016-10-10 15:24:21] Downloading org.eclipse.mylyn.commons.ui
+[2016-10-10 15:24:21] Downloading org.eclipse.equinox.security.ui
+[2016-10-10 15:24:21] Downloading org.eclipse.aether.impl
+[2016-10-10 15:24:21] Downloading org.eclipse.mylyn.bugzilla.ui
+[2016-10-10 15:24:21] Fetching org.eclipse.equinox.security.ui_1.1.300.v20150803-1225.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:21] Fetching org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:21] Fetching org.eclipse.mylyn.commons.ui_3.20.0.v20160421-1819.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:21] Fetching org.eclipse.mylyn.bugzilla.ui_3.20.0.v20160425-1835.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:21] Fetching org.eclipse.aether.impl_1.0.1.v20141111.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:21] Downloading org.eclipse.mylyn.commons.workbench
+[2016-10-10 15:24:21] Downloading org.eclipse.search
+[2016-10-10 15:24:22] Downloading org.eclipse.wst.standard.schemas
+[2016-10-10 15:24:22] Downloading org.eclipse.mylyn.java.ui
+[2016-10-10 15:24:22] Fetching org.eclipse.mylyn.commons.workbench_3.20.0.v20160421-1819.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:22] Fetching org.eclipse.search_3.11.0.v20160519-1501.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:22] Downloading org.eclipse.ui.externaltools
+[2016-10-10 15:24:22] Fetching org.eclipse.wst.standard.schemas_1.0.700.v201304171715.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:22] Fetching org.eclipse.mylyn.java.ui_3.20.0.v20160421-1902.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:22] Fetching org.eclipse.ui.externaltools_3.3.100.v20160518-1858.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:22] Downloading org.eclipse.jetty.http
+[2016-10-10 15:24:22] Downloading org.eclipse.jdt.junit
+[2016-10-10 15:24:22] Downloading org.apache.batik.util
+[2016-10-10 15:24:22] Fetching org.eclipse.jetty.http_9.3.9.v20160517.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:22] Downloading org.eclipse.help.ui
+[2016-10-10 15:24:22] Downloading org.eclipse.wst.common.frameworks.ui
+[2016-10-10 15:24:22] Fetching org.eclipse.jdt.junit_3.9.0.v20160421-1701.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:22] Fetching org.apache.batik.util_1.7.0.v201011041433.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading org.eclipse.aether.api
+[2016-10-10 15:24:23] Fetching org.eclipse.wst.common.frameworks.ui_1.2.400.v201504292002.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Fetching org.eclipse.help.ui_4.0.200.v20160510-0758.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading javaewah
+[2016-10-10 15:24:23] Fetching org.eclipse.aether.api_1.0.1.v20141111.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading org.eclipse.wst.common.modulecore.ui
+[2016-10-10 15:24:23] Fetching javaewah_0.7.9.v201605172130.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading com.sun.el
+[2016-10-10 15:24:23] Fetching org.eclipse.wst.common.modulecore.ui_1.0.300.v201505072128.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading org.eclipse.mylyn.builds.core
+[2016-10-10 15:24:23] Downloading org.eclipse.mylyn.team.ui
+[2016-10-10 15:24:23] Fetching com.sun.el_2.2.0.v201303151357.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading org.eclipse.ui.navigator
+[2016-10-10 15:24:23] Downloading org.eclipse.emf.ecore.edit
+[2016-10-10 15:24:23] Fetching org.eclipse.mylyn.builds.core_1.12.0.v20160421-2142.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading org.eclipse.mylyn.context.core
+[2016-10-10 15:24:23] Fetching org.eclipse.emf.ecore.edit_2.9.0.v20160526-0356.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Fetching org.eclipse.mylyn.team.ui_3.20.0.v20160421-1902.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading org.apache.commons.lang3
+[2016-10-10 15:24:23] Fetching org.eclipse.ui.navigator_3.6.100.v20160518-1929.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading org.eclipse.ui.cheatsheets
+[2016-10-10 15:24:23] Fetching org.eclipse.mylyn.context.core_3.20.0.v20160421-1902.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:23] Downloading org.eclipse.equinox.p2.ui.importexport
+[2016-10-10 15:24:23] Fetching org.apache.commons.lang3_3.1.0.v201403281430.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Downloading org.eclipse.wst.server.core
+[2016-10-10 15:24:24] Fetching org.eclipse.ui.cheatsheets_3.5.0.v20160504-0839.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Fetching org.eclipse.equinox.p2.ui.importexport_1.1.200.v20160521-1138.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Downloading org.eclipse.mylyn.hudson.core
+[2016-10-10 15:24:24] Downloading org.eclipse.core.commands
+[2016-10-10 15:24:24] Fetching org.eclipse.wst.server.core_1.8.100.v201605201456.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Fetching org.eclipse.mylyn.hudson.core_1.12.0.v20160524-1837.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Fetching org.eclipse.core.commands_3.8.0.v20160316-1921.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Downloading javax.servlet.jsp
+[2016-10-10 15:24:24] Downloading org.eclipse.mylyn.commons.screenshots
+[2016-10-10 15:24:24] Downloading org.eclipse.e4.ui.model.workbench
+[2016-10-10 15:24:24] Fetching javax.servlet.jsp_2.2.0.v201112011158.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Fetching org.eclipse.e4.ui.model.workbench_1.2.0.v20160229-1459.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Fetching org.eclipse.mylyn.commons.screenshots_3.20.0.v20160421-1819.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:24] Downloading org.apache.commons.lang
+[2016-10-10 15:24:24] Downloading org.eclipse.mylyn.context.ui
+[2016-10-10 15:24:24] Downloading org.eclipse.m2e.launching
+[2016-10-10 15:24:24] Fetching org.apache.commons.lang_2.6.0.v201404270220.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:25] Downloading org.sat4j.core
+[2016-10-10 15:24:25] Fetching org.eclipse.m2e.launching_1.7.0.20160603-1933.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:25] Fetching org.eclipse.mylyn.context.ui_3.20.0.v20160421-1902.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:25] Downloading javax.servlet
+[2016-10-10 15:24:25] Fetching org.sat4j.core_2.3.5.v201308161310.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:25] Fetching javax.servlet_3.1.0.v201410161800.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:25] Downloading org.eclipse.jetty.security
+[2016-10-10 15:24:25] Downloading org.eclipse.equinox.p2.director
+[2016-10-10 15:24:25] Downloading org.eclipse.ant.launching
+[2016-10-10 15:24:25] Downloading org.apache.commons.jxpath
+[2016-10-10 15:24:25] Downloading org.eclipse.e4.ui.workbench.renderers.swt
+[2016-10-10 15:24:25] Downloading org.eclipse.jetty.servlet
+[2016-10-10 15:24:25] Downloading org.eclipse.mylyn.commons.repositories.ui
+[2016-10-10 15:24:25] Fetching org.eclipse.jetty.security_9.3.9.v20160517.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:25] Fetching org.eclipse.equinox.p2.director_2.3.300.v20160504-1450.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:25] Fetching org.eclipse.ant.launching_1.1.200.v20160418-1631.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:25] Downloading org.eclipse.wst.server.discovery
+[2016-10-10 15:24:25] Fetching org.eclipse.jetty.servlet_9.3.9.v20160517.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Fetching org.eclipse.e4.ui.workbench.renderers.swt_0.14.0.v20160525-0940.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Fetching org.eclipse.mylyn.commons.repositories.ui_1.12.0.v20160421-1819.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Fetching org.eclipse.wst.server.discovery_1.3.0.v201606030549.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Fetching org.apache.commons.jxpath_1.3.0.v200911051830.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Downloading org.w3c.dom.svg
+[2016-10-10 15:24:26] Downloading org.apache.xml.resolver
+[2016-10-10 15:24:26] Downloading org.eclipse.equinox.p2.publisher
+[2016-10-10 15:24:26] Fetching org.w3c.dom.svg_1.1.0.v201011041433.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Downloading org.eclipse.m2e.editor
+[2016-10-10 15:24:26] Downloading org.eclipse.mylyn.tasks.bugs
+[2016-10-10 15:24:26] Fetching org.eclipse.equinox.p2.publisher_1.4.100.v20160504-1450.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Fetching org.apache.xml.resolver_1.2.0.v201005080400.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Fetching org.eclipse.m2e.editor_1.7.0.20160603-1933.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:26] Downloading org.eclipse.mylyn.discovery.ui
+[2016-10-10 15:24:26] Downloading org.eclipse.core.databinding.observable
+[2016-10-10 15:24:27] Fetching org.eclipse.mylyn.tasks.bugs_3.20.0.v20160425-1835.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:27] Fetching org.eclipse.mylyn.discovery.ui_3.20.0.v20160421-1819.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:27] Downloading org.eclipse.equinox.ds
+[2016-10-10 15:24:27] Fetching org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:27] Downloading org.eclipse.core.expressions
+[2016-10-10 15:24:27] Fetching org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:27] Fetching org.eclipse.core.expressions_3.5.100.v20160418-1621.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:27] Downloading org.eclipse.wst.sse.doc.user
+[2016-10-10 15:24:27] Downloading org.eclipse.emf.edit
+[2016-10-10 15:24:27] Fetching org.eclipse.wst.sse.doc.user_1.1.100.v201208081537.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:27] Fetching org.eclipse.emf.edit_2.12.0.v20160526-0356.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:27] Downloading org.eclipse.wst.xmleditor.doc.user
+[2016-10-10 15:24:27] Downloading org.jsoup
+[2016-10-10 15:24:27] Downloading org.eclipse.equinox.app
+[2016-10-10 15:24:27] Downloading org.eclipse.mylyn.commons.core
+[2016-10-10 15:24:27] Fetching org.eclipse.wst.xmleditor.doc.user_1.0.700.v201208081537.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:27] Downloading org.eclipse.ui.console
+[2016-10-10 15:24:27] Fetching org.jsoup_1.7.2.v201411291515.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Fetching org.eclipse.equinox.app_1.3.400.v20150715-1528.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Downloading org.eclipse.wst.dtd.ui
+[2016-10-10 15:24:28] Fetching org.eclipse.mylyn.commons.core_3.20.0.v20160421-1819.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Fetching org.eclipse.ui.console_3.6.200.v20160518-1858.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Downloading org.eclipse.emf.ecore.xmi
+[2016-10-10 15:24:28] Fetching org.eclipse.wst.dtd.ui_1.0.801.v201308100602.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Downloading org.eclipse.mylyn.wikitext.confluence.core
+[2016-10-10 15:24:28] Downloading org.eclipse.core.databinding.beans
+[2016-10-10 15:24:28] Fetching org.eclipse.emf.ecore.xmi_2.12.0.v20160420-0247.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Fetching org.eclipse.mylyn.wikitext.confluence.core_2.9.0.v20160513-1433.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Fetching org.eclipse.core.databinding.beans_1.3.100.v20160509-1025.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Downloading org.eclipse.jetty.io
+[2016-10-10 15:24:28] Fetching org.eclipse.jetty.io_9.3.9.v20160517.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:28] Downloading org.eclipse.mylyn.wikitext.mediawiki.core
+[2016-10-10 15:24:28] Downloading org.eclipse.m2e.discovery
+[2016-10-10 15:24:28] Downloading org.eclipse.m2e.refactoring
+[2016-10-10 15:24:28] Downloading org.eclipse.equinox.util
+[2016-10-10 15:24:28] Downloading org.eclipse.wst.xsdeditor.doc.user
+[2016-10-10 15:24:28] Downloading org.eclipse.equinox.p2.operations
+[2016-10-10 15:24:28] Fetching org.eclipse.mylyn.wikitext.mediawiki.core_2.9.0.v20160513-1433.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Fetching org.eclipse.m2e.refactoring_1.7.0.20160603-1933.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Fetching org.eclipse.m2e.discovery_1.7.0.20160603-1933.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Downloading org.eclipse.emf.edit.ui
+[2016-10-10 15:24:29] Fetching org.eclipse.equinox.p2.operations_2.4.200.v20160504-1450.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Fetching org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201208081537.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Downloading org.eclipse.wst.common.emf
+[2016-10-10 15:24:29] Fetching org.eclipse.emf.edit.ui_2.12.0.v20160526-0356.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Downloading org.eclipse.wst.xsd.core
+[2016-10-10 15:24:29] Fetching org.eclipse.wst.common.emf_1.2.400.v201505132009.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Downloading org.apache.commons.io
+[2016-10-10 15:24:29] Downloading org.eclipse.equinox.p2.touchpoint.natives
+[2016-10-10 15:24:29] Fetching org.eclipse.equinox.util_1.0.500.v20130404-1337.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Downloading org.eclipse.core.net
+[2016-10-10 15:24:29] Fetching org.apache.commons.io_2.2.0.v201405211200.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Fetching org.eclipse.equinox.p2.touchpoint.natives_1.2.100.v20160419-0834.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Fetching org.eclipse.core.net_1.3.0.v20160418-1534.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:29] Downloading org.eclipse.ant.core
+[2016-10-10 15:24:29] Fetching org.eclipse.wst.xsd.core_1.1.900.v201401141857.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:30] Fetching org.eclipse.ant.core_3.4.100.v20160505-0642.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:30] Downloading org.eclipse.equinox.p2.core
+[2016-10-10 15:24:30] Downloading org.eclipse.equinox.p2.engine
+[2016-10-10 15:24:30] Downloading org.eclipse.jdt.apt.ui
+[2016-10-10 15:24:30] Downloading org.eclipse.jdt.compiler.apt
+[2016-10-10 15:24:30] Downloading org.eclipse.compare.core
+[2016-10-10 15:24:30] Downloading org.eclipse.core.filesystem
+[2016-10-10 15:24:30] Downloading org.eclipse.e4.ui.css.core
+[2016-10-10 15:24:30] Downloading org.eclipse.mylyn.context.tasks.ui
+[2016-10-10 15:24:30] Fetching org.eclipse.equinox.p2.core_2.4.100.v20160419-0834.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:30] Fetching org.eclipse.equinox.p2.engine_2.4.100.v20160419-0834.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:30] Fetching org.eclipse.jdt.apt.ui_3.4.100.v20160418-1457.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Fetching org.eclipse.core.filesystem_1.6.0.v20160503-1608.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Fetching org.eclipse.jdt.compiler.apt_1.2.100.v20160418-1457.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Fetching org.eclipse.mylyn.context.tasks.ui_3.20.0.v20160608-1905.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Fetching org.eclipse.compare.core_3.6.0.v20160418-1534.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Fetching org.eclipse.e4.ui.css.core_0.12.0.v20160505-1310.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Downloading org.apache.xmlrpc
+[2016-10-10 15:24:31] Downloading org.eclipse.mylyn.wikitext.tracwiki.core
+[2016-10-10 15:24:31] Downloading org.eclipse.equinox.frameworkadmin.equinox
+[2016-10-10 15:24:31] Downloading org.eclipse.ui.navigator.resources
+[2016-10-10 15:24:31] Downloading org.eclipse.mylyn.wikitext.asciidoc.core
+[2016-10-10 15:24:31] Downloading org.apache.felix.gogo.shell
+[2016-10-10 15:24:31] Downloading org.eclipse.mylyn.discovery.core
+[2016-10-10 15:24:31] Fetching org.eclipse.ui.navigator.resources_3.5.100.v20160518-1929.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Fetching org.eclipse.equinox.frameworkadmin.equinox_1.0.700.v20160102-2223.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Fetching org.apache.xmlrpc_3.0.0.v20100427-1100.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Fetching org.eclipse.mylyn.wikitext.tracwiki.core_2.9.0.v20160513-1433.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Downloading org.eclipse.core.databinding
+[2016-10-10 15:24:31] Fetching org.eclipse.mylyn.wikitext.asciidoc.core_2.9.0.v20160524-1633.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:31] Downloading org.eclipse.mylyn.commons.net
+[2016-10-10 15:24:31] Fetching org.apache.felix.gogo.shell_0.10.0.v201212101605.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Fetching org.eclipse.core.databinding_1.6.0.v20160412-0910.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Downloading org.eclipse.jdt.junit.core
+[2016-10-10 15:24:32] Downloading org.eclipse.emf.common.ui
+[2016-10-10 15:24:32] Fetching org.eclipse.mylyn.commons.net_3.20.0.v20160421-1819.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Downloading org.apache.felix.gogo.command
+[2016-10-10 15:24:32] Downloading org.eclipse.equinox.p2.discovery.compatibility
+[2016-10-10 15:24:32] Fetching org.eclipse.jdt.junit.core_3.8.0.v20160421-1701.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Fetching org.eclipse.emf.common.ui_2.11.0.v20160526-0356.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Downloading javax.el
+[2016-10-10 15:24:32] Fetching org.apache.felix.gogo.command_0.10.0.v201209301215.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Downloading org.eclipse.jdt.junit.runtime
+[2016-10-10 15:24:32] Fetching org.eclipse.equinox.p2.discovery.compatibility_1.0.200.v20131211-1531.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Fetching javax.el_2.2.0.v201303151357.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Downloading org.eclipse.wst.common.ui
+[2016-10-10 15:24:32] Downloading org.eclipse.equinox.p2.repository
+[2016-10-10 15:24:32] Downloading org.eclipse.equinox.p2.artifact.repository
+[2016-10-10 15:24:32] Downloading org.eclipse.equinox.common
+[2016-10-10 15:24:32] Fetching org.eclipse.wst.common.ui_1.1.500.v200911182011.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Fetching org.eclipse.equinox.p2.repository_2.3.200.v20160421-0324.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Fetching org.eclipse.mylyn.discovery.core_3.20.0.v20160421-1819.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Downloading org.eclipse.mylyn.monitor.ui
+[2016-10-10 15:24:32] Fetching org.eclipse.equinox.p2.artifact.repository_1.1.500.v20160419-0834.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Fetching org.eclipse.equinox.common_3.8.0.v20160509-1230.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:32] Fetching org.eclipse.mylyn.monitor.ui_3.20.0.v20160421-1819.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:33] Downloading org.eclipse.equinox.launcher
+[2016-10-10 15:24:33] Downloading org.eclipse.wst.common.emfworkbench.integration
+[2016-10-10 15:24:33] Downloading org.eclipse.mylyn.wikitext.textile.core
+[2016-10-10 15:24:33] Fetching org.eclipse.wst.common.emfworkbench.integration_1.2.101.v201107081800.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/plugins/
+[2016-10-10 15:24:33] Fetching org.eclipse.mylyn.wikitext.textile.core_2.9.0.v20160513-1433.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:33] Fetching org.eclipse.equinox.launcher_1.3.200.v20160318-1642.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:24:34] Fetching org.eclipse.jdt.junit.runtime_3.4.600.v20160505-0715.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/plugins/
+[2016-10-10 15:25:24] Downloading org.eclipse.platform_root
+[2016-10-10 15:25:24] Downloading org.eclipse.ecf.ssl
+[2016-10-10 15:25:24] Downloading org.eclipse.rcp
+[2016-10-10 15:25:24] Downloading org.eclipse.recommenders.apidocs
+[2016-10-10 15:25:24] Downloading org.eclipse.ecf.provider.filetransfer.ssl
+[2016-10-10 15:25:24] Downloading org.eclipse.buildship.stsmigration
+[2016-10-10 15:25:24] Downloading org.eclipse.buildship.branding
+[2016-10-10 15:25:24] Downloading org.eclipse.egit
+[2016-10-10 15:25:24] Downloading org.eclipse.recommenders.overrides
+[2016-10-10 15:25:24] Downloading org.eclipse.recommenders.net
+[2016-10-10 15:25:25] Fetching org.eclipse.platform_root_4.6.1.v20160907-1200 from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201609281000/binary/
+[2016-10-10 15:25:25] Fetching org.eclipse.buildship.stsmigration_1.0.18.v20160817-1550.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.ecf.ssl_1.2.0.v20160823-2221.jar.pack.gz from http://eclipse.mirror.triple-it.nl/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.recommenders.net_2.4.3.v20160913-0645.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20160823-2221.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.buildship.branding_1.0.18.v20160817-1550.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Downloading org.eclipse.recommenders.mylyn.rcp
+[2016-10-10 15:25:25] Fetching org.eclipse.recommenders.apidocs_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.ibcp.fr/pub/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.rcp_4.6.1.v20160907-1200.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.recommenders.overrides_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.tspu.ru/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Downloading org.eclipse.recommenders.constructors
+[2016-10-10 15:25:25] Downloading org.eclipse.recommenders.overrides.rcp
+[2016-10-10 15:25:25] Downloading org.eclipse.ecf.provider.filetransfer.httpclient4.ssl
+[2016-10-10 15:25:25] Fetching org.eclipse.egit_4.4.1.201607150455-r.jar.pack.gz from http://mirrors.nic.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Downloading org.eclipse.jgit
+[2016-10-10 15:25:25] Fetching org.eclipse.recommenders.mylyn.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.recommenders.overrides.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Downloading org.eclipse.egit.mylyn.ui
+[2016-10-10 15:25:25] Fetching org.eclipse.ecf.provider.filetransfer.httpclient4.ssl_1.1.0.v20160823-2221.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.jgit_4.4.1.201607150455-r.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:25] Downloading com.gradleware.tooling.utils
+[2016-10-10 15:25:25] Fetching org.eclipse.egit.mylyn.ui_4.4.1.201607150455-r.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Downloading org.eclipse.epp.logging.aeri.feature
+[2016-10-10 15:25:25] Fetching org.eclipse.recommenders.constructors_2.4.3.v20160913-0645.jar.pack.gz from http://ftp.linux.org.tr/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Downloading org.eclipse.recommenders.mylyn.rcp.feature
+[2016-10-10 15:25:25] Downloading org.eclipse.recommenders.snipmatch.rcp.feature
+[2016-10-10 15:25:25] Downloading org.eclipse.egit.mylyn
+[2016-10-10 15:25:25] Downloading org.eclipse.buildship
+[2016-10-10 15:25:25] Fetching com.gradleware.tooling.utils_0.14.0.v20160817124109.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:25] Fetching org.eclipse.epp.logging.aeri.feature_2.0.3.v20160905-1331.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:25] Fetching org.eclipse.recommenders.mylyn.rcp.feature_2.4.3.v20160913-0645.jar from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:25] Fetching org.eclipse.buildship_1.0.18.v20160817-1550.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:25] Downloading org.eclipse.equinox.p2.user.ui
+[2016-10-10 15:25:25] Downloading org.eclipse.egit
+[2016-10-10 15:25:25] Fetching org.eclipse.recommenders.snipmatch.rcp.feature_2.4.3.v20160913-0645.jar from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:25] Fetching org.eclipse.egit.mylyn_4.4.1.201607150455-r.jar from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:25] Downloading org.eclipse.equinox.p2.rcp.feature
+[2016-10-10 15:25:25] Downloading org.eclipse.equinox.p2.discovery.feature
+[2016-10-10 15:25:26] Downloading org.eclipse.rcp
+[2016-10-10 15:25:26] Downloading org.eclipse.equinox.p2.extras.feature
+[2016-10-10 15:25:26] Fetching org.eclipse.egit_4.4.1.201607150455-r.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Fetching org.eclipse.equinox.p2.user.ui_2.2.200.v20160815-1406.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Fetching org.eclipse.equinox.p2.rcp.feature_1.2.200.v20160815-1406.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Downloading org.eclipse.recommenders.coordinates
+[2016-10-10 15:25:26] Downloading org.eclipse.recommenders.rcp.feature
+[2016-10-10 15:25:26] Fetching org.eclipse.rcp_4.6.1.v20160907-1200.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Downloading org.eclipse.recommenders.injection
+[2016-10-10 15:25:26] Fetching org.eclipse.equinox.p2.extras.feature_1.2.200.v20160815-1406.jar from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Fetching org.eclipse.recommenders.coordinates_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:26] Fetching org.eclipse.recommenders.rcp.feature_2.4.3.v20160913-0645.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Downloading org.eclipse.jdt
+[2016-10-10 15:25:26] Downloading org.eclipse.help
+[2016-10-10 15:25:26] Downloading org.eclipse.equinox.p2.core.feature
+[2016-10-10 15:25:26] Downloading org.eclipse.epp.mpc
+[2016-10-10 15:25:26] Fetching org.eclipse.recommenders.injection_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:26] Downloading org.eclipse.ecf.core.ssl.feature
+[2016-10-10 15:25:26] Downloading org.eclipse.ecf.core.feature
+[2016-10-10 15:25:26] Fetching org.eclipse.jdt_3.12.1.v20160907-1200.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Downloading org.eclipse.recommenders.subwords.rcp
+[2016-10-10 15:25:26] Downloading org.eclipse.swt
+[2016-10-10 15:25:26] Fetching org.eclipse.ecf.core.ssl.feature_1.1.0.v20160823-2221.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Fetching org.eclipse.recommenders.subwords.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:26] Fetching org.eclipse.ecf.core.feature_1.3.0.v20160823-2221.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:26] Fetching org.eclipse.swt_3.105.1.v20160907-0248.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:26] Downloading org.eclipse.platform
+[2016-10-10 15:25:26] Downloading org.eclipse.e4.rcp
+[2016-10-10 15:25:26] Downloading org.eclipse.recommenders.types.rcp
+[2016-10-10 15:25:26] Downloading org.eclipse.ecf.filetransfer.ssl.feature
+[2016-10-10 15:25:26] Downloading org.eclipse.jgit.archive
+[2016-10-10 15:25:27] Fetching org.eclipse.platform_4.6.1.v20160907-1200.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Fetching org.eclipse.e4.rcp_1.5.1.v20160907-0248.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Fetching org.eclipse.recommenders.types.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:27] Fetching org.eclipse.ecf.filetransfer.ssl.feature_1.1.0.v20160823-2221.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Downloading org.eclipse.recommenders.constructors.rcp
+[2016-10-10 15:25:27] Fetching org.eclipse.jgit.archive_4.4.1.201607150455-r.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:27] Downloading com.gradleware.tooling.client
+[2016-10-10 15:25:27] Downloading org.eclipse.ecf.filetransfer.httpclient4.ssl.feature
+[2016-10-10 15:25:27] Fetching org.eclipse.recommenders.constructors.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:27] Fetching com.gradleware.tooling.client_0.14.0.v20160817124109.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:27] Downloading org.eclipse.ecf.filetransfer.httpclient4.feature
+[2016-10-10 15:25:27] Downloading org.eclipse.ecf.filetransfer.feature
+[2016-10-10 15:25:27] Fetching org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.0.v20160823-2221.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Downloading org.eclipse.rcp_root
+[2016-10-10 15:25:27] Downloading org.eclipse.recommenders.calls
+[2016-10-10 15:25:27] Fetching org.eclipse.ecf.filetransfer.httpclient4.feature_3.13.2.v20160823-2221.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Downloading org.eclipse.recommenders.snipmatch
+[2016-10-10 15:25:27] Fetching org.eclipse.epp.mpc_1.5.1.v20160913-1450.jar from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Downloading org.eclipse.recommenders.jdt
+[2016-10-10 15:25:27] Fetching org.eclipse.ecf.filetransfer.feature_3.13.2.v20160823-2221.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Fetching org.eclipse.equinox.p2.discovery.feature_1.0.401.v20160901-1335.jar from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Fetching org.eclipse.rcp_root_4.6.1.v20160907-1200 from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/binary/
+[2016-10-10 15:25:27] Fetching org.eclipse.recommenders.calls_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:27] Downloading org.eclipse.ecf.provider.filetransfer.httpclient4
+[2016-10-10 15:25:27] Fetching org.eclipse.recommenders.jdt_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:27] Fetching org.eclipse.recommenders.snipmatch_2.4.3.v20160913-0645.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:27] Downloading org.eclipse.wst.xml_core.feature
+[2016-10-10 15:25:27] Downloading org.eclipse.wst.xml_ui.feature
+[2016-10-10 15:25:27] Downloading org.eclipse.jdt
+[2016-10-10 15:25:27] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2016-10-10 15:25:27] Downloading org.eclipse.recommenders.coordinates.rcp
+[2016-10-10 15:25:27] Fetching org.eclipse.wst.xml_core.feature_3.8.0.v201608061842.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Fetching org.eclipse.ecf.provider.filetransfer.httpclient4_1.1.100.v20160823-2221.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:27] Fetching org.eclipse.wst.xml_ui.feature_3.8.0.v201608061842.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/features/
+[2016-10-10 15:25:27] Downloading org.eclipse.recommenders.utils.rcp
+[2016-10-10 15:25:27] Downloading org.eclipse.ecf
+[2016-10-10 15:25:27] Fetching org.eclipse.platform.ide.executable.win32.win32.x86_64_4.6.1.M20160907-1200 from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/binary/
+[2016-10-10 15:25:27] Fetching org.eclipse.recommenders.coordinates.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Downloading org.eclipse.recommenders.jayes.io
+[2016-10-10 15:25:28] Fetching org.eclipse.recommenders.utils.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Fetching org.eclipse.ecf_3.8.0.v20160823-2221.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Fetching org.eclipse.recommenders.jayes.io_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Downloading org.eclipse.ui.themes
+[2016-10-10 15:25:28] Downloading org.eclipse.ui.ide.application
+[2016-10-10 15:25:28] Downloading org.eclipse.jdt.ui
+[2016-10-10 15:25:28] Downloading org.eclipse.platform.doc.user
+[2016-10-10 15:25:28] Fetching org.eclipse.ui.themes_1.1.200.v20160815-0536.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Fetching org.eclipse.help_2.2.0.v20160907-1200.jar from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:28] Fetching org.eclipse.equinox.p2.core.feature_1.3.200.v20160815-1406.jar from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/features/
+[2016-10-10 15:25:28] Downloading org.eclipse.jdt.doc.user
+[2016-10-10 15:25:28] Fetching org.eclipse.ui.ide.application_1.1.101.v20160829-0827.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Fetching org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Downloading org.eclipse.jdt.core
+[2016-10-10 15:25:28] Fetching org.eclipse.platform.doc.user_4.6.1.v20160727-2009.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Fetching org.eclipse.jdt.doc.user_3.12.1.v20160727-2009.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Downloading org.eclipse.egit.doc
+[2016-10-10 15:25:28] Downloading org.eclipse.debug.ui
+[2016-10-10 15:25:28] Downloading org.eclipse.jgit
+[2016-10-10 15:25:28] Fetching org.eclipse.jdt.core_3.12.1.v20160829-0950.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Fetching org.eclipse.debug.ui_3.11.201.v20160825-1412.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Fetching org.eclipse.jgit_4.4.1.201607150455-r.jar from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Fetching org.eclipse.egit.doc_4.4.1.201607150455-r.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:28] Downloading org.eclipse.ui.intro.universal
+[2016-10-10 15:25:28] Downloading org.gradle.toolingapi
+[2016-10-10 15:25:29] Fetching org.eclipse.ui.intro.universal_3.3.1.v20160829-1558.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:29] Fetching org.gradle.toolingapi_3.0.0.v20160817124109.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:29] Fetching org.eclipse.jdt_3.12.1.v20160907-1200.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:29] Downloading org.eclipse.jdt.debug.ui
+[2016-10-10 15:25:30] Fetching org.eclipse.jdt.debug.ui_3.7.201.v20160811-0450.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:40] Downloading org.eclipse.swt.win32.win32.x86_64
+[2016-10-10 15:25:40] Fetching org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:41] Downloading org.eclipse.ui.workbench
+[2016-10-10 15:25:41] Fetching org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:45] Downloading org.eclipse.jface.text
+[2016-10-10 15:25:46] Fetching org.eclipse.jface.text_3.11.1.v20160819-1517.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:47] Downloading org.eclipse.jdt.debug
+[2016-10-10 15:25:47] Fetching org.eclipse.jdt.debug_3.10.1.v20160811-0441.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:48] Downloading org.eclipse.egit.ui
+[2016-10-10 15:25:48] Fetching org.eclipse.egit.ui_4.4.1.201607150455-r.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:54] Downloading org.eclipse.ui.ide
+[2016-10-10 15:25:54] Fetching org.eclipse.ui.ide_3.12.1.v20160823-0925.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:57] Downloading org.eclipse.epp.mpc.help.ui
+[2016-10-10 15:25:57] Downloading org.eclipse.ui.workbench.texteditor
+[2016-10-10 15:25:57] Fetching org.eclipse.epp.mpc.help.ui_1.5.1.v20160824-2005.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:57] Fetching org.eclipse.ui.workbench.texteditor_3.10.1.v20160818-1626.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:25:58] Downloading org.eclipse.epp.mpc.ui
+[2016-10-10 15:25:58] Fetching org.eclipse.epp.mpc.ui_1.5.1.v20160913-1450.jar from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:25:59] Downloading org.eclipse.platform
+[2016-10-10 15:25:59] Fetching org.eclipse.platform_4.6.1.v20160907-1200.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:00] Downloading org.eclipse.egit.core
+[2016-10-10 15:26:00] Fetching org.eclipse.egit.core_4.4.1.201607150455-r.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:01] Downloading org.eclipse.osgi
+[2016-10-10 15:26:01] Fetching org.eclipse.osgi_3.11.1.v20160708-1632.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:01] Downloading org.eclipse.ui.intro
+[2016-10-10 15:26:01] Downloading org.eclipse.buildship.core
+[2016-10-10 15:26:01] Fetching org.eclipse.ui.intro_3.5.1.v20160829-1558.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:01] Fetching org.eclipse.buildship.core_1.0.18.v20160817-1550.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:03] Downloading org.eclipse.epp.mpc.core
+[2016-10-10 15:26:03] Fetching org.eclipse.epp.mpc.core_1.5.1.v20160912-1012.jar from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:03] Downloading org.eclipse.e4.ui.workbench.swt
+[2016-10-10 15:26:03] Downloading org.eclipse.equinox.http.servlet
+[2016-10-10 15:26:03] Fetching org.eclipse.equinox.http.servlet_1.3.1.v20160808-1329.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:04] Fetching org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:04] Downloading org.eclipse.buildship.ui
+[2016-10-10 15:26:04] Downloading org.eclipse.help.base
+[2016-10-10 15:26:04] Fetching org.eclipse.buildship.ui_1.0.18.v20160817-1550.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:04] Downloading org.eclipse.epp.logging.aeri.ide
+[2016-10-10 15:26:04] Fetching org.eclipse.help.base_4.1.0.v20160907-1200.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:05] Fetching org.eclipse.epp.logging.aeri.ide_2.0.3.v20160905-1331.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:05] Downloading com.gradleware.tooling.model
+[2016-10-10 15:26:05] Downloading org.eclipse.equinox.p2.ui.discovery
+[2016-10-10 15:26:06] Downloading org.eclipse.e4.ui.workbench.addons.swt
+[2016-10-10 15:26:06] Fetching com.gradleware.tooling.model_0.14.0.v20160817124109.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:06] Fetching org.eclipse.equinox.p2.ui.discovery_1.0.201.v20160901-1335.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:06] Downloading org.eclipse.ui.views.log
+[2016-10-10 15:26:06] Fetching org.eclipse.e4.ui.workbench.addons.swt_1.2.100.v20160831-1151.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:06] Fetching org.eclipse.ui.views.log_1.2.1.v20160829-0826.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:06] Downloading org.eclipse.wst.sse.core
+[2016-10-10 15:26:06] Fetching org.eclipse.wst.sse.core_1.1.1000.v201608061842.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:07] Downloading org.eclipse.equinox.preferences
+[2016-10-10 15:26:07] Downloading org.eclipse.ecf.provider.filetransfer
+[2016-10-10 15:26:07] Downloading org.eclipse.recommenders.models.rcp
+[2016-10-10 15:26:07] Fetching org.eclipse.ecf.provider.filetransfer_3.2.200.v20160823-2221.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:07] Downloading org.eclipse.recommenders.utils
+[2016-10-10 15:26:07] Fetching org.eclipse.equinox.preferences_3.6.1.v20160815-1406.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:07] Fetching org.eclipse.recommenders.models.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:07] Fetching org.eclipse.recommenders.utils_2.4.3.v20160913-0645.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:07] Downloading org.eclipse.ui.views
+[2016-10-10 15:26:07] Downloading org.eclipse.recommenders.snipmatch.rcp
+[2016-10-10 15:26:07] Downloading org.eclipse.recommenders.apidocs.rcp
+[2016-10-10 15:26:07] Downloading org.eclipse.ui.browser
+[2016-10-10 15:26:08] Fetching org.eclipse.recommenders.snipmatch.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:08] Fetching org.eclipse.ui.views_3.8.101.v20160816-1954.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:08] Fetching org.eclipse.recommenders.apidocs.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:08] Fetching org.eclipse.ui.browser_3.5.1.v20160712-0914.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:08] Downloading org.eclipse.recommenders.jayes
+[2016-10-10 15:26:08] Fetching org.eclipse.recommenders.jayes_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:08] Downloading org.eclipse.recommenders.calls.rcp
+[2016-10-10 15:26:08] Downloading org.eclipse.recommenders.rcp
+[2016-10-10 15:26:08] Downloading org.eclipse.recommenders.completion.rcp
+[2016-10-10 15:26:09] Downloading org.eclipse.recommenders.models
+[2016-10-10 15:26:09] Fetching org.eclipse.recommenders.calls.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:09] Fetching org.eclipse.recommenders.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:09] Fetching org.eclipse.recommenders.completion.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:09] Fetching org.eclipse.recommenders.models_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:09] Downloading org.eclipse.ecf.identity
+[2016-10-10 15:26:09] Fetching org.eclipse.ecf.identity_3.7.0.v20160823-2221.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:09] Downloading org.eclipse.recommenders.chain.rcp
+[2016-10-10 15:26:09] Downloading org.eclipse.epp.logging.aeri.core
+[2016-10-10 15:26:09] Fetching org.eclipse.recommenders.chain.rcp_2.4.3.v20160913-0645.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:09] Downloading org.eclipse.e4.core.di
+[2016-10-10 15:26:09] Fetching org.eclipse.epp.logging.aeri.core_2.0.3.v20160905-0759.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:09] Downloading org.eclipse.ecf.filetransfer
+[2016-10-10 15:26:10] Fetching org.eclipse.e4.core.di_1.6.1.v20160712-0927.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/plugins/
+[2016-10-10 15:26:10] Fetching org.eclipse.ecf.filetransfer_5.0.0.v20160823-2221.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/plugins/
+[2016-10-10 15:26:32] Mirrored 130 artifacts from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201606221000/ at 120kb/s
+[2016-10-10 15:26:32] Mirrored 74 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201606221000/ at 115kb/s
+[2016-10-10 15:26:32] Mirrored 116 artifacts from http://mirror.dkm.cz/eclipse/releases/neon/201606221000/ at 87kb/s
+[2016-10-10 15:26:32] Mirrored 41 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201606221000/ at 34kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201606221000/ at 29kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://mirror.ibcp.fr/pub/eclipse//releases/neon/201606221000/ at 27kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://ftp.fau.de/eclipse/releases/neon/201606221000/ at 25kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://ftp.linux.org.tr/eclipse//releases/neon/201606221000/ at 22kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://eclipse.mirror.triple-it.nl/releases/neon/201606221000/ at 18kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://mirror.tspu.ru/eclipse/releases/neon/201606221000/ at 16kb/s
+[2016-10-10 15:26:32] Mirrored 3 artifacts from http://ftp.heanet.ie/pub/eclipse//releases/neon/201606221000/ at 15kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://ftp.halifax.rwth-aachen.de/eclipse//releases/neon/201606221000/ at 11kb/s
+[2016-10-10 15:26:32] Mirrored 5 artifacts from http://mirrors.nic.cz/eclipse/releases/neon/201606221000/ at 7kb/s
+[2016-10-10 15:26:32] Mirrored 26 artifacts from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/neon/201609281000/ at 112kb/s
+[2016-10-10 15:26:32] Mirrored 62 artifacts from http://mirror.dkm.cz/eclipse/releases/neon/201609281000/ at 103kb/s
+[2016-10-10 15:26:32] Mirrored 12 artifacts from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/neon/201609281000/ at 61kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://mirror.tspu.ru/eclipse/releases/neon/201609281000/ at 29kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://ftp.halifax.rwth-aachen.de/eclipse//releases/neon/201609281000/ at 25kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://ftp.linux.org.tr/eclipse//releases/neon/201609281000/ at 24kb/s
+[2016-10-10 15:26:32] Mirrored 9 artifacts from http://ftp.heanet.ie/pub/eclipse//releases/neon/201609281000/ at 17kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://eclipse.mirror.triple-it.nl/releases/neon/201609281000/ at 17kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://mirrors.nic.cz/eclipse/releases/neon/201609281000/ at 16kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://mirror.ibcp.fr/pub/eclipse//releases/neon/201609281000/ at 11kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/neon/201609281000/ at 10kb/s
+[2016-10-10 15:26:32] Mirrored 1 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/neon/201609281000/ at 0kb/s
+[2016-10-10 15:26:32] Collected 493 artifacts for http://download.eclipse.org/releases/neon in 185.315s
+[2016-10-10 15:26:34] Installing a.jre.javase [1.6.0]
+[2016-10-10 15:26:34] Installing ch.qos.logback.classic [1.0.7.v20121108-1250]
+[2016-10-10 15:26:34] Installing ch.qos.logback.core [1.0.7.v20121108-1250]
+[2016-10-10 15:26:34] Installing ch.qos.logback.slf4j [1.0.7.v201505121915]
+[2016-10-10 15:26:34] Installing com.google.gson [2.2.4.v201311231704]
+[2016-10-10 15:26:34] Installing com.google.guava [15.0.0.v201403281430]
+[2016-10-10 15:26:34] Installing com.google.inject [3.0.0.v201605172100]
+[2016-10-10 15:26:34] Installing com.google.inject.multibindings [3.0.0.v201605172100]
+[2016-10-10 15:26:34] Installing com.gradleware.tooling.client [0.14.0.v20160817124109]
+[2016-10-10 15:26:34] Installing com.gradleware.tooling.model [0.14.0.v20160817124109]
+[2016-10-10 15:26:34] Installing com.gradleware.tooling.utils [0.14.0.v20160817124109]
+[2016-10-10 15:26:34] Installing com.ibm.icu [56.1.0.v201601250100]
+[2016-10-10 15:26:34] Installing com.jcraft.jsch [0.1.53.v201508180515]
+[2016-10-10 15:26:34] Installing com.sun.el [2.2.0.v201303151357]
+[2016-10-10 15:26:34] Installing config.a.jre.javase [1.6.0]
+[2016-10-10 15:26:34] Installing epp.package.java [4.6.1.20160913-0645]
+[2016-10-10 15:26:34] Installing epp.package.java.executable.win32.win32.x86_64 [4.6.1.20160913-0645]
+[2016-10-10 15:26:34] Installing epp.package.java.executable.win32.win32.x86_64.eclipse [4.6.1.20160913-0645]
+[2016-10-10 15:26:34] Installing javaewah [0.7.9.v201605172130]
+[2016-10-10 15:26:34] Installing javax.annotation [1.2.0.v201602091430]
+[2016-10-10 15:26:34] Installing javax.el [2.2.0.v201303151357]
+[2016-10-10 15:26:34] Installing javax.inject [1.0.0.v20091030]
+[2016-10-10 15:26:34] Installing javax.servlet [3.1.0.v201410161800]
+[2016-10-10 15:26:34] Installing javax.servlet.jsp [2.2.0.v201112011158]
+[2016-10-10 15:26:34] Installing javax.xml [1.3.4.v201005080400]
+[2016-10-10 15:26:34] Installing org.apache.ant [1.9.6.v201510161327]
+[2016-10-10 15:26:34] Installing org.apache.batik.css [1.7.0.v201011041433]
+[2016-10-10 15:26:34] Installing org.apache.batik.util [1.7.0.v201011041433]
+[2016-10-10 15:26:34] Installing org.apache.batik.util.gui [1.7.0.v200903091627]
+[2016-10-10 15:26:34] Installing org.apache.commons.codec [1.6.0.v201305230611]
+[2016-10-10 15:26:34] Installing org.apache.commons.compress [1.6.0.v201310281400]
+[2016-10-10 15:26:34] Installing org.apache.commons.httpclient [3.1.0.v201012070820]
+[2016-10-10 15:26:34] Installing org.apache.commons.io [2.2.0.v201405211200]
+[2016-10-10 15:26:34] Installing org.apache.commons.jxpath [1.3.0.v200911051830]
+[2016-10-10 15:26:34] Installing org.apache.commons.lang [2.6.0.v201404270220]
+[2016-10-10 15:26:34] Installing org.apache.commons.lang3 [3.1.0.v201403281430]
+[2016-10-10 15:26:34] Installing org.apache.commons.logging [1.1.1.v201101211721]
+[2016-10-10 15:26:34] Installing org.apache.commons.math [2.1.0.v201105210652]
+[2016-10-10 15:26:34] Installing org.apache.commons.pool [1.6.0.v201204271246]
+[2016-10-10 15:26:34] Installing org.apache.felix.gogo.command [0.10.0.v201209301215]
+[2016-10-10 15:26:34] Installing org.apache.felix.gogo.runtime [0.10.0.v201209301036]
+[2016-10-10 15:26:34] Installing org.apache.felix.gogo.shell [0.10.0.v201212101605]
+[2016-10-10 15:26:34] Installing org.apache.httpcomponents.httpclient [4.3.6.v201411290715]
+[2016-10-10 15:26:34] Installing org.apache.httpcomponents.httpcore [4.3.3.v201411290715]
+[2016-10-10 15:26:34] Installing org.apache.jasper.glassfish [2.2.2.v201501141630]
+[2016-10-10 15:26:34] Installing org.apache.log4j [1.2.15.v201012070815]
+[2016-10-10 15:26:34] Installing org.apache.lucene.analysis [3.5.0.v20120725-1805]
+[2016-10-10 15:26:34] Installing org.apache.lucene.core [3.5.0.v20120725-1805]
+[2016-10-10 15:26:34] Installing org.apache.solr.client.solrj [3.5.0.v20150506-0844]
+[2016-10-10 15:26:34] Installing org.apache.ws.commons.util [1.0.1.v20100518-1140]
+[2016-10-10 15:26:34] Installing org.apache.xerces [2.9.0.v201101211617]
+[2016-10-10 15:26:34] Installing org.apache.xml.resolver [1.2.0.v201005080400]
+[2016-10-10 15:26:34] Installing org.apache.xml.serializer [2.7.1.v201005080400]
+[2016-10-10 15:26:34] Installing org.apache.xmlrpc [3.0.0.v20100427-1100]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.api [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.connector.basic [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.connector.basic.feature.feature.group [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.connector.basic.feature.feature.jar [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.feature.feature.group [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.feature.feature.jar [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.impl [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.maven [3.1.0.v20140706-2237]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.maven.feature.feature.group [3.1.0.20140706-2237]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.maven.feature.feature.jar [3.1.0.20140706-2237]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.spi [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.transport.file [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.transport.file.feature.feature.group [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.transport.file.feature.feature.jar [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.transport.http [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.transport.http.feature.feature.group [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.transport.http.feature.feature.jar [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.aether.util [1.0.1.v20141111]
+[2016-10-10 15:26:34] Installing org.eclipse.ant.core [3.4.100.v20160505-0642]
+[2016-10-10 15:26:34] Installing org.eclipse.ant.launching [1.1.200.v20160418-1631]
+[2016-10-10 15:26:34] Installing org.eclipse.ant.ui [3.6.200.v20160525-1820]
+[2016-10-10 15:26:34] Installing org.eclipse.buildship.branding [1.0.18.v20160817-1550]
+[2016-10-10 15:26:34] Installing org.eclipse.buildship.core [1.0.18.v20160817-1550]
+[2016-10-10 15:26:34] Installing org.eclipse.buildship.feature.group [1.0.18.v20160817-1550]
+[2016-10-10 15:26:34] Installing org.eclipse.buildship.feature.jar [1.0.18.v20160817-1550]
+[2016-10-10 15:26:34] Installing org.eclipse.buildship.stsmigration [1.0.18.v20160817-1550]
+[2016-10-10 15:26:34] Installing org.eclipse.buildship.ui [1.0.18.v20160817-1550]
+[2016-10-10 15:26:34] Installing org.eclipse.compare [3.6.0.v20160418-1534]
+[2016-10-10 15:26:34] Installing org.eclipse.compare.core [3.6.0.v20160418-1534]
+[2016-10-10 15:26:34] Installing org.eclipse.compare.win32 [1.1.0.v20160418-1534]
+[2016-10-10 15:26:34] Installing org.eclipse.core.commands [3.8.0.v20160316-1921]
+[2016-10-10 15:26:34] Installing org.eclipse.core.contenttype [3.5.100.v20160418-1621]
+[2016-10-10 15:26:34] Installing org.eclipse.core.databinding [1.6.0.v20160412-0910]
+[2016-10-10 15:26:34] Installing org.eclipse.core.databinding.beans [1.3.100.v20160509-1025]
+[2016-10-10 15:26:34] Installing org.eclipse.core.databinding.observable [1.6.0.v20160511-1747]
+[2016-10-10 15:26:34] Installing org.eclipse.core.databinding.property [1.6.0.v20160427-0852]
+[2016-10-10 15:26:34] Installing org.eclipse.core.expressions [3.5.100.v20160418-1621]
+[2016-10-10 15:26:34] Installing org.eclipse.core.externaltools [1.0.400.v20160509-1057]
+[2016-10-10 15:26:34] Installing org.eclipse.core.filebuffers [3.6.0.v20160503-1849]
+[2016-10-10 15:26:34] Installing org.eclipse.core.filesystem [1.6.0.v20160503-1608]
+[2016-10-10 15:26:34] Installing org.eclipse.core.filesystem.win32.x86_64 [1.4.0.v20140124-1940]
+[2016-10-10 15:26:34] Installing org.eclipse.core.jobs [3.8.0.v20160509-0411]
+[2016-10-10 15:26:34] Installing org.eclipse.core.net [1.3.0.v20160418-1534]
+[2016-10-10 15:26:34] Installing org.eclipse.core.net.win32.x86_64 [1.1.0.v20160323-1650]
+[2016-10-10 15:26:34] Installing org.eclipse.core.resources [3.11.0.v20160503-1608]
+[2016-10-10 15:26:34] Installing org.eclipse.core.resources.win32.x86_64 [3.5.0.v20140124-1940]
+[2016-10-10 15:26:34] Installing org.eclipse.core.runtime [3.12.0.v20160606-1342]
+[2016-10-10 15:26:34] Installing org.eclipse.core.variables [3.3.0.v20160419-1720]
+[2016-10-10 15:26:34] Installing org.eclipse.debug.core [3.10.100.v20160419-1720]
+[2016-10-10 15:26:34] Installing org.eclipse.debug.ui [3.11.201.v20160825-1412]
+[2016-10-10 15:26:35] Installing org.eclipse.draw2d [3.10.100.201606061308]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.core.commands [0.11.100.v20160506-0804]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.core.contexts [1.5.0.v20160504-0909]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.core.di [1.6.1.v20160712-0927]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.core.di.annotations [1.5.0.v20151127-1241]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.core.di.extensions [0.14.0.v20160211-1614]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.core.services [2.0.100.v20160509-1032]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.emf.xpath [0.1.200.v20160506-0804]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.rcp.feature.group [1.5.1.v20160907-0248]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.rcp.feature.jar [1.5.1.v20160907-0248]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.bindings [0.11.100.v20160509-1025]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.css.core [0.12.0.v20160505-1310]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.css.swt [0.12.100.v20160517-1505]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.css.swt.theme [0.10.100.v20160523-0836]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.di [1.1.100.v20160506-0759]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.dialogs [1.1.0.v20151127-1218]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.model.workbench [1.2.0.v20160229-1459]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.services [1.2.100.v20160506-0759]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.widgets [1.1.100.v20160506-0759]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.workbench [1.4.0.v20160517-1624]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.workbench.addons.swt [1.2.100.v20160831-1151]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.workbench.renderers.swt [0.14.0.v20160525-0940]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.workbench.swt [0.14.1.v20160829-0832]
+[2016-10-10 15:26:35] Installing org.eclipse.e4.ui.workbench3 [0.13.100.v20160506-0759]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf [3.8.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.core.feature.feature.group [1.3.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.core.feature.feature.jar [1.3.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.core.ssl.feature.feature.group [1.1.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.core.ssl.feature.feature.jar [1.1.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer [5.0.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer.feature.feature.group [3.13.2.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer.feature.feature.jar [3.13.2.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer.httpclient4.feature.feature.group [3.13.2.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer.httpclient4.feature.feature.jar [3.13.2.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.group [1.1.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.jar [1.1.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group [1.1.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.jar [1.1.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.identity [3.7.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.provider.filetransfer [3.2.200.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.provider.filetransfer.httpclient4 [1.1.100.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.provider.filetransfer.httpclient4.ssl [1.1.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.provider.filetransfer.ssl [1.0.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.ecf.ssl [1.2.0.v20160823-2221]
+[2016-10-10 15:26:35] Installing org.eclipse.egit [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.egit.core [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.egit.doc [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.egit.feature.group [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.egit.feature.jar [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.egit.mylyn.feature.group [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.egit.mylyn.feature.jar [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.egit.mylyn.ui [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.egit.ui [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.common [2.12.0.v20160420-0247]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.common.feature.group [2.12.0.v20160420-0247]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.common.feature.jar [2.12.0.v20160420-0247]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.common.ui [2.11.0.v20160526-0356]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.databinding [1.3.0.v20160526-0356]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.ecore [2.12.0.v20160420-0247]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.ecore.change [2.11.0.v20160420-0247]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.ecore.edit [2.9.0.v20160526-0356]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.ecore.feature.group [2.12.0.v20160420-0247]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.ecore.feature.jar [2.12.0.v20160420-0247]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.ecore.xmi [2.12.0.v20160420-0247]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.edit [2.12.0.v20160526-0356]
+[2016-10-10 15:26:35] Installing org.eclipse.emf.edit.ui [2.12.0.v20160526-0356]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.logging.aeri.core [2.0.3.v20160905-0759]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.logging.aeri.feature.feature.group [2.0.3.v20160905-1331]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.logging.aeri.feature.feature.jar [2.0.3.v20160905-1331]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.logging.aeri.ide [2.0.3.v20160905-1331]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.mpc.core [1.5.1.v20160912-1012]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.mpc.feature.group [1.5.1.v20160913-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.mpc.feature.jar [1.5.1.v20160913-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.mpc.help.ui [1.5.1.v20160824-2005]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.mpc.ui [1.5.1.v20160913-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.package.common.feature.feature.group [4.6.1.20160912-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.package.common.feature.feature.jar [4.6.1.20160912-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.package.java [4.6.1.20160912-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.package.java.feature.feature.group [4.6.1.20160912-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.epp.package.java.feature.feature.jar [4.6.1.20160912-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.app [1.3.400.v20150715-1528]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.bidi [1.0.0.v20160307-1318]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.common [3.8.0.v20160509-1230]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.concurrent [1.1.0.v20130327-1442]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.console [1.1.200.v20150929-1405]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.ds [1.4.400.v20160226-2036]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.event [1.3.200.v20160324-1850]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.frameworkadmin [2.0.300.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.frameworkadmin.equinox [1.0.700.v20160102-2223]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.http.jetty [3.3.0.v20160324-1850]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.http.registry [1.1.400.v20150715-1528]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.http.servlet [1.3.1.v20160808-1329]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.jsp.jasper [1.0.500.v20150119-1358]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.jsp.jasper.registry [1.0.300.v20130327-1442]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.launcher [1.3.200.v20160318-1642]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.launcher.win32.win32.x86_64 [1.1.400.v20160518-1444]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.artifact.repository [1.1.500.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.console [1.0.500.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.core [2.4.100.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.core.feature.feature.group [1.3.200.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.core.feature.feature.jar [1.3.200.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.director [2.3.300.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.director.app [1.0.500.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.directorywatcher [1.1.100.v20150423-1455]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.discovery [1.0.400.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.discovery.compatibility [1.0.200.v20131211-1531]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.discovery.feature.feature.group [1.0.401.v20160901-1335]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.discovery.feature.feature.jar [1.0.401.v20160901-1335]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.engine [2.4.100.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.extensionlocation [1.2.300.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.extras.feature.feature.group [1.2.200.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.extras.feature.feature.jar [1.2.200.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.garbagecollector [1.0.300.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.jarprocessor [1.0.500.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.metadata [2.3.100.v20160427-2220]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.metadata.repository [1.2.300.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.operations [2.4.200.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.publisher [1.4.100.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.publisher.eclipse [1.2.100.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.rcp.feature.feature.group [1.2.200.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.rcp.feature.feature.jar [1.2.200.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.reconciler.dropins [1.1.400.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.repository [2.3.200.v20160421-0324]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.repository.tools [2.1.300.v20160421-0324]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.touchpoint.eclipse [2.1.400.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.touchpoint.natives [1.2.100.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.transport.ecf [1.1.200.v20160606-1311]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.ui [2.4.100.v20160419-0834]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.ui.discovery [1.0.201.v20160901-1335]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.ui.importexport [1.1.200.v20160521-1138]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.ui.sdk [1.0.400.v20150423-1455]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.ui.sdk.scheduler [1.2.200.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.updatechecker [1.1.200.v20131119-0908]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.updatesite [1.0.600.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.user.ui.feature.group [2.2.200.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.p2.user.ui.feature.jar [2.2.200.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.preferences [3.6.1.v20160815-1406]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.registry [3.6.100.v20160223-2218]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.security [1.2.200.v20150715-1528]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.security.ui [1.1.300.v20150803-1225]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.security.win32.x86_64 [1.0.100.v20130327-1442]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.simpleconfigurator [1.1.200.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.simpleconfigurator.manipulator [2.0.200.v20160504-1450]
+[2016-10-10 15:26:35] Installing org.eclipse.equinox.util [1.0.500.v20130404-1337]
+[2016-10-10 15:26:35] Installing org.eclipse.gef [3.11.0.201606061308]
+[2016-10-10 15:26:35] Installing org.eclipse.help [3.7.0.v20160602-1307]
+[2016-10-10 15:26:35] Installing org.eclipse.help.base [4.1.0.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.help.feature.group [2.2.0.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.help.feature.jar [2.2.0.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.help.ui [4.0.200.v20160510-0758]
+[2016-10-10 15:26:35] Installing org.eclipse.help.webapp [3.8.0.v20160504-0839]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt [3.12.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.annotation [1.1.100.v20160418-1457]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.apt.core [3.4.100.v20160525-0952]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.apt.pluggable.core [1.1.100.v20160418-1457]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.apt.ui [3.4.100.v20160418-1457]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.compiler.apt [1.2.100.v20160418-1457]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.compiler.tool [1.1.100.v20160418-1457]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.core [3.12.1.v20160829-0950]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.core.manipulation [1.7.0.v20160419-0705]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.debug [3.10.1.v20160811-0441]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.debug.ui [3.7.201.v20160811-0450]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.doc.user [3.12.1.v20160727-2009]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.feature.group [3.12.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.feature.jar [3.12.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.junit [3.9.0.v20160421-1701]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.junit.core [3.8.0.v20160421-1701]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.junit.runtime [3.4.600.v20160505-0715]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.junit4.runtime [1.1.600.v20160505-0715]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.launching [3.8.100.v20160505-0636]
+[2016-10-10 15:26:35] Installing org.eclipse.jdt.ui [3.12.1.v20160822-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.jem.util [2.1.200.v201404021757]
+[2016-10-10 15:26:35] Installing org.eclipse.jetty.continuation [9.3.9.v20160517]
+[2016-10-10 15:26:35] Installing org.eclipse.jetty.http [9.3.9.v20160517]
+[2016-10-10 15:26:35] Installing org.eclipse.jetty.io [9.3.9.v20160517]
+[2016-10-10 15:26:35] Installing org.eclipse.jetty.security [9.3.9.v20160517]
+[2016-10-10 15:26:35] Installing org.eclipse.jetty.server [9.3.9.v20160517]
+[2016-10-10 15:26:35] Installing org.eclipse.jetty.servlet [9.3.9.v20160517]
+[2016-10-10 15:26:35] Installing org.eclipse.jetty.util [9.3.9.v20160517]
+[2016-10-10 15:26:35] Installing org.eclipse.jface [3.12.0.v20160518-1929]
+[2016-10-10 15:26:35] Installing org.eclipse.jface.databinding [1.8.0.v20160420-2231]
+[2016-10-10 15:26:35] Installing org.eclipse.jface.text [3.11.1.v20160819-1517]
+[2016-10-10 15:26:35] Installing org.eclipse.jgit [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.jgit.archive [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.jgit.feature.group [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.jgit.feature.jar [4.4.1.201607150455-r]
+[2016-10-10 15:26:35] Installing org.eclipse.jsch.core [1.3.0.v20160422-1917]
+[2016-10-10 15:26:35] Installing org.eclipse.jsch.ui [1.3.0.v20160323-1650]
+[2016-10-10 15:26:35] Installing org.eclipse.ltk.core.refactoring [3.7.0.v20160419-0705]
+[2016-10-10 15:26:35] Installing org.eclipse.ltk.ui.refactoring [3.8.0.v20160518-1817]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.archetype.common [1.7.0.20160603-1931]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.core [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.core.ui [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.discovery [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.editor [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.editor.xml [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.feature.feature.group [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.feature.feature.jar [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.importer [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.jdt [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.jdt.ui [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.launching [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.lifecyclemapping.defaults [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.logback.appender [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.logback.configuration [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.logback.feature.feature.group [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.logback.feature.feature.jar [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.maven.indexer [1.7.0.20160603-1931]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.maven.runtime [1.7.0.20160603-1931]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.maven.runtime.slf4j.simple [1.7.0.20160603-1931]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.model.edit [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.profiles.core [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.profiles.ui [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.refactoring [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.scm [1.7.0.20160603-1933]
+[2016-10-10 15:26:35] Installing org.eclipse.m2e.workspace.cli [0.3.1]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.bugzilla.core [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.bugzilla.ide [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.bugzilla.ui [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.bugzilla_feature.feature.group [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.bugzilla_feature.feature.jar [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.builds.core [1.12.0.v20160421-2142]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.builds.feature.group [1.12.0.v20160421-2142]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.builds.feature.jar [1.12.0.v20160421-2142]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.builds.ui [1.12.0.v20160421-2142]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.core [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.feature.group [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.feature.jar [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.identity.core [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.identity.feature.group [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.identity.feature.jar [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.net [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.notifications.core [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.notifications.feature.group [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.notifications.feature.jar [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.notifications.feed [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.notifications.ui [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.repositories.core [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.repositories.feature.group [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.repositories.feature.jar [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.repositories.http.core [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.repositories.http.feature.group [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.repositories.http.feature.jar [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.repositories.ui [1.12.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.screenshots [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.ui [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.workbench [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.commons.xmlrpc [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.context.core [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.context.tasks.ui [3.20.0.v20160608-1905]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.context.ui [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.context_feature.feature.group [3.20.0.v20160608-1905]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.context_feature.feature.jar [3.20.0.v20160608-1905]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.debug.ui [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.discovery.core [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.discovery.feature.group [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.discovery.feature.jar [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.discovery.ui [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.git.core [1.12.0.v20160421-1824]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.git.feature.group [1.12.0.v20160421-1824]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.git.feature.jar [1.12.0.v20160421-1824]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.git.ui [1.12.0.v20160421-1824]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.help.ui [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.hudson.core [1.12.0.v20160524-1837]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.hudson.feature.group [1.12.0.v20160524-1837]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.hudson.feature.jar [1.12.0.v20160524-1837]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.hudson.ui [1.12.0.v20160421-2142]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.ide.ant [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.ide.ui [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.ide_feature.feature.group [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.ide_feature.feature.jar [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.java.tasks [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.java.ui [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.java_feature.feature.group [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.java_feature.feature.jar [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.monitor.core [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.monitor.feature.group [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.monitor.feature.jar [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.monitor.ui [3.20.0.v20160421-1819]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.resources.ui [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.tasks.bugs [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.tasks.core [3.20.0.v20160608-1838]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.tasks.ide.feature.group [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.tasks.ide.feature.jar [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.tasks.index.core [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.tasks.index.ui [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.tasks.search [3.20.0.v20160425-1835]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.tasks.ui [3.20.0.v20160608-1838]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.team.ui [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.team_feature.feature.group [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.team_feature.feature.jar [3.20.0.v20160421-1902]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.versions.core [1.12.0.v20160421-1824]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.versions.feature.group [1.12.0.v20160421-1824]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.versions.feature.jar [1.12.0.v20160421-1824]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.versions.ui [1.12.0.v20160421-1824]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.asciidoc.core [2.9.0.v20160524-1633]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.asciidoc.ui [2.9.0.v20160516-1451]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.confluence.core [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.confluence.ui [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.context.ui [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.core [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.core.ant [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.core.osgi [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.help.ui [2.9.0.v20160524-0547]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.html.core [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.markdown.core [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.markdown.ui [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.mediawiki.core [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.mediawiki.core.ant [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.mediawiki.ui [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.tasks.ui [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.textile.core [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.textile.ui [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.tracwiki.core [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.tracwiki.ui [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.twiki.core [2.9.0.v20160519-0832]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.twiki.ui [2.9.0.v20160513-1433]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext.ui [2.9.0.v20160516-1547]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext_feature.feature.group [2.9.0.v20160601-1831]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn.wikitext_feature.feature.jar [2.9.0.v20160601-1831]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn_feature.feature.group [3.20.0.v20160608-1838]
+[2016-10-10 15:26:35] Installing org.eclipse.mylyn_feature.feature.jar [3.20.0.v20160608-1838]
+[2016-10-10 15:26:35] Installing org.eclipse.nebula.widgets.tablecombo [1.0.0.201609191728]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.base [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.base.edit [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.extractor.lib [1.2.0.v20160519-0740]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.jreinfo [1.5.0.v20160807-1022]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.jreinfo.ui [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.jreinfo.win32.x86_64 [1.2.0.v20160426-0508]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.p2 [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.p2.core [1.6.0.v20160920-0515]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.p2.doc [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.p2.edit [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.p2.feature.group [1.6.0.v20160920-0515]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.p2.feature.jar [1.6.0.v20160920-0515]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.p2.ui [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.predicates [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.predicates.edit [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.preferences [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.resources [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.resources.edit [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.core [1.6.0.v20160920-1303]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.core.feature.group [1.6.0.v20160920-1303]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.core.feature.jar [1.6.0.v20160920-1303]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.doc [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.edit [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.editor [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.feature.group [1.6.0.v20160920-1303]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.feature.jar [1.6.0.v20160920-1303]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.p2 [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.p2.edit [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.sync [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.ui [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.setup.ui.questionnaire [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.ui [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.util [1.5.0.v20160920-0409]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.workingsets [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.workingsets.edit [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.oomph.workingsets.editor [1.6.0.v20160920-0456]
+[2016-10-10 15:26:35] Installing org.eclipse.osgi [3.11.1.v20160708-1632]
+[2016-10-10 15:26:35] Installing org.eclipse.osgi.compatibility.state [1.0.200.v20160504-1419]
+[2016-10-10 15:26:35] Installing org.eclipse.osgi.services [3.5.100.v20160504-1419]
+[2016-10-10 15:26:35] Installing org.eclipse.osgi.util [3.3.100.v20150423-1351]
+[2016-10-10 15:26:35] Installing org.eclipse.platform [4.6.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.platform.doc.user [4.6.1.v20160727-2009]
+[2016-10-10 15:26:35] Installing org.eclipse.platform.feature.group [4.6.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.platform.feature.jar [4.6.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.platform.ide [4.6.1.M20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.platform.ide.executable.win32.win32.x86_64 [4.6.1.M20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.platform.ide.executable.win32.win32.x86_64.eclipse [4.6.1.M20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.platform_root [4.6.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.rcp [4.6.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.rcp.feature.group [4.6.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.rcp.feature.jar [4.6.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.rcp_root [4.6.1.v20160907-1200]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.apidocs [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.apidocs.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.calls [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.calls.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.chain.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.completion.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.constructors [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.constructors.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.coordinates [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.coordinates.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.injection [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.jayes [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.jayes.io [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.jdt [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.models [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.models.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.mylyn.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.mylyn.rcp.feature.feature.group [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.mylyn.rcp.feature.feature.jar [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.net [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.overrides [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.overrides.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.rcp.feature.feature.group [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.rcp.feature.feature.jar [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.snipmatch [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.snipmatch.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.snipmatch.rcp.feature.feature.group [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.snipmatch.rcp.feature.feature.jar [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.subwords.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.types.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.utils [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.recommenders.utils.rcp [2.4.3.v20160913-0645]
+[2016-10-10 15:26:35] Installing org.eclipse.search [3.11.0.v20160519-1501]
+[2016-10-10 15:26:35] Installing org.eclipse.swt [3.105.1.v20160907-0248]
+[2016-10-10 15:26:35] Installing org.eclipse.swt.win32.win32.x86_64 [3.105.1.v20160907-0248]
+[2016-10-10 15:26:35] Installing org.eclipse.team.core [3.8.0.v20160418-1534]
+[2016-10-10 15:26:35] Installing org.eclipse.team.ui [3.8.0.v20160518-1906]
+[2016-10-10 15:26:35] Installing org.eclipse.text [3.6.0.v20160503-1849]
+[2016-10-10 15:26:35] Installing org.eclipse.ui [3.108.0.v20160518-1929]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.browser [3.5.1.v20160712-0914]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.cheatsheets [3.5.0.v20160504-0839]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.console [3.6.200.v20160518-1858]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.editors [3.10.0.v20160505-0931]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.externaltools [3.3.100.v20160518-1858]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.forms [3.7.0.v20160518-1929]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.ide [3.12.1.v20160823-0925]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.ide.application [1.1.101.v20160829-0827]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.intro [3.5.1.v20160829-1558]
+[2016-10-10 15:26:35] Installing org.eclipse.ui.intro.quicklinks [1.0.0.v20160515-0255]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.intro.universal [3.3.1.v20160829-1558]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.monitoring [1.1.0.v20160131-1628]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.navigator [3.6.100.v20160518-1929]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.navigator.resources [3.5.100.v20160518-1929]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.net [1.3.0.v20160426-1633]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.themes [1.1.200.v20160815-0536]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.views [3.8.101.v20160816-1954]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.views.log [1.2.1.v20160829-0826]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.views.properties.tabbed [3.7.0.v20160310-0903]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.win32 [3.3.0.v20160505-1310]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.workbench [3.108.1.v20160819-2118]
+[2016-10-10 15:26:36] Installing org.eclipse.ui.workbench.texteditor [3.10.1.v20160818-1626]
+[2016-10-10 15:26:36] Installing org.eclipse.update.configurator [3.3.400.v20160506-0750]
+[2016-10-10 15:26:36] Installing org.eclipse.userstorage [1.0.0.v20160524-0709]
+[2016-10-10 15:26:36] Installing org.eclipse.userstorage.ui [1.0.0.v20151216-0912]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.core [1.2.0.v200908251833]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.emf [1.2.400.v201505132009]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.emfworkbench.integration [1.2.101.v201107081800]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.environment [1.0.400.v200912181831]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.frameworks [1.2.200.v201304241450]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.frameworks.ui [1.2.400.v201504292002]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.infopop [1.0.300.v201309101952]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.modulecore [1.2.401.v201408132036]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.modulecore.ui [1.0.300.v201505072128]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.project.facet.core [1.4.300.v201111030423]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.snippets [1.2.300.v201602270217]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.ui [1.1.500.v200911182011]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common.uriresolver [1.2.200.v201505132009]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common_core.feature.feature.group [3.7.1.v201508262220]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common_core.feature.feature.jar [3.7.1.v201508262220]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common_ui.feature.feature.group [3.8.0.v201603091933]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.common_ui.feature.feature.jar [3.8.0.v201603091933]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.dtd.core [1.1.700.v201211012112]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.dtd.ui [1.0.801.v201308100602]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.dtd.ui.infopop [1.0.400.v201309112106]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.dtdeditor.doc.user [1.0.700.v201208081537]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.internet.cache [1.0.701.v201510130022]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.server.core [1.8.100.v201605201456]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.server.discovery [1.3.0.v201606030549]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.sse.core [1.1.1000.v201608061842]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.sse.doc.user [1.1.100.v201208081537]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.sse.ui [1.3.500.v201605120129]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.sse.ui.infopop [1.0.300.v201309112106]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.standard.schemas [1.0.700.v201304171715]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.validation [1.2.700.v201508251749]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.validation.infopop [1.0.300.v201309101952]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.validation.ui [1.2.500.v201310231452]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml.core [1.1.1000.v201605120036]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml.ui [1.1.700.v201604272318]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml.ui.infopop [1.0.400.v201309112106]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml_core.feature.feature.group [3.8.0.v201608061842]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml_core.feature.feature.jar [3.8.0.v201608061842]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml_ui.feature.feature.group [3.8.0.v201608061842]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml_ui.feature.feature.jar [3.8.0.v201608061842]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml_userdoc.feature.feature.group [3.8.0.v201511030001]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xml_userdoc.feature.feature.jar [3.8.0.v201511030001]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xmleditor.doc.user [1.0.700.v201208081537]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xsd.core [1.1.900.v201401141857]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xsd.ui [1.2.600.v201511240159]
+[2016-10-10 15:26:36] Installing org.eclipse.wst.xsdeditor.doc.user [1.0.800.v201208081537]
+[2016-10-10 15:26:36] Installing org.eclipse.xsd [2.12.0.v20160526-0356]
+[2016-10-10 15:26:36] Installing org.eclipse.xsd.edit [2.8.0.v20160526-0356]
+[2016-10-10 15:26:36] Installing org.gradle.toolingapi [3.0.0.v20160817124109]
+[2016-10-10 15:26:36] Installing org.hamcrest.core [1.3.0.v201303031735]
+[2016-10-10 15:26:36] Installing org.jsoup [1.7.2.v201411291515]
+[2016-10-10 15:26:36] Installing org.junit [4.12.0.v201504281640]
+[2016-10-10 15:26:36] Installing org.maven.ide.eclipse [1.7.0.20160603-1933]
+[2016-10-10 15:26:36] Installing org.sat4j.core [2.3.5.v201308161310]
+[2016-10-10 15:26:36] Installing org.sat4j.pb [2.3.5.v201404071733]
+[2016-10-10 15:26:36] Installing org.slf4j.api [1.7.2.v20121108-1250]
+[2016-10-10 15:26:36] Installing org.slf4j.impl.log4j12 [1.7.2.v20131105-2200]
+[2016-10-10 15:26:36] Installing org.tukaani.xz [1.3.0.v201308270617]
+[2016-10-10 15:26:36] Installing org.w3c.css.sac [1.3.1.v200903091627]
+[2016-10-10 15:26:36] Installing org.w3c.dom.events [3.0.0.draft20060413_v201105210656]
+[2016-10-10 15:26:36] Installing org.w3c.dom.smil [1.0.1.v200903091627]
+[2016-10-10 15:26:36] Installing org.w3c.dom.svg [1.1.0.v201011041433]
+[2016-10-10 15:26:36] Installing tooling.org.eclipse.update.feature.default [1.0.0]
+[2016-10-10 15:26:36] Installing tooling.osgi.bundle.default [1.0.0]
+[2016-10-10 15:26:36] Installing tooling.source.default [1.0.0]
+[2016-10-10 15:26:36] Installing toolingepp.package.java.application [4.6.1.20160913-0645]
+[2016-10-10 15:26:36] Installing toolingepp.package.java.config.win32.win32.x86_64 [4.6.1.20160913-0645]
+[2016-10-10 15:26:36] Installing toolingepp.package.java.configuration [4.6.1.20160913-0645]
+[2016-10-10 15:26:36] Installing toolingepp.package.java.executable.win32.win32.x86_64 [4.6.1.20160913-0645]
+[2016-10-10 15:26:36] Installing toolingepp.package.java.ini.win32.win32.x86_64 [4.6.1.20160913-0645]
+[2016-10-10 15:26:36] Installing toolingorg.eclipse.equinox.launcher [1.3.200.v20160318-1642]
+[2016-10-10 15:26:36] Installing toolingorg.eclipse.equinox.launcher.win32.win32.x86_64 [1.1.400.v20160518-1444]
+[2016-10-10 15:26:36] Installing toolingorg.eclipse.platform.configuration [1.0.0]
+[2016-10-10 15:26:36] Installing toolingorg.eclipse.platform.ide.application [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingorg.eclipse.platform.ide.config.win32.win32.x86_64 [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingorg.eclipse.platform.ide.configuration [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingorg.eclipse.platform.ide.executable.win32.win32.x86_64 [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingorg.eclipse.platform.ide.ini.win32.win32.x86_64 [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingwin32.win32.x86_64org.eclipse.core.runtime [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingwin32.win32.x86_64org.eclipse.equinox.common [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingwin32.win32.x86_64org.eclipse.equinox.ds [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingwin32.win32.x86_64org.eclipse.equinox.event [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingwin32.win32.x86_64org.eclipse.equinox.p2.reconciler.dropins [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingwin32.win32.x86_64org.eclipse.equinox.simpleconfigurator [4.6.1.M20160907-1200]
+[2016-10-10 15:26:36] Installing toolingwin32.win32.x86_64org.eclipse.update.configurator [4.6.1.M20160907-1200]
+[2016-10-10 15:26:37] Preparing to commit the provisioning operation.
+[2016-10-10 15:26:37] Committing the provisioning operation.
+[2016-10-10 15:26:38] Performing Eclipse Ini --launcher.appendVmargs
+[2016-10-10 15:26:38] Performing Eclipse Ini -Declipse.p2.max.threads=10
+[2016-10-10 15:26:38] Changing C:\Eclipse\eclipse\eclipse.ini (-Declipse.p2.max.threads=10)
+[2016-10-10 15:26:38] Performing Eclipse Ini -Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest
+[2016-10-10 15:26:38] Changing C:\Eclipse\eclipse\eclipse.ini (-Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest)
+[2016-10-10 15:26:38] Performing Eclipse Ini -Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/
+[2016-10-10 15:26:38] Changing C:\Eclipse\eclipse\eclipse.ini (-Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/)
+[2016-10-10 15:26:38] Performing post bootstrap tasks
+[2016-10-10 15:26:38] 
